@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "./base//palette.light.css";
+@import "./base//palette.dark.css";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme {
+  --breakpoint-xs: 448px;
+
+  --color-background-primary: var(--rp-background-primary);
+  --color-background-secondary: var(--rp-background-secondary);
+
+  --color-prose-primary: var(--rp-prose-primary);
+  --color-prose-secondary: var(--rp-prose-secondary);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background-primary);
+    color: var(--color-prose-primary);
+    overflow-x: hidden;
+  }
+}

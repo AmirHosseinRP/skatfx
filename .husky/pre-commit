@@ -1,0 +1,8 @@
+echo "📌 Running pre-commit hook..."
+
+pnpm run lint ||
+    (
+        echo "❌ Lint Check Failed!"
+        false
+    )
+

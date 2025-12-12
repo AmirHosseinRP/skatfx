@@ -1,0 +1,9 @@
+:root {
+  color-scheme: light;
+
+  --rp-background-primary: #ffffff;
+  --rp-background-secondary: #f5f7fa;
+
+  --rp-prose-primary: #1e1e1e;
+  --rp-prose-secondary: #6d6d6d;
+}

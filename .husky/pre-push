@@ -1,0 +1,30 @@
+echo "📌 Running pre-push hook..."
+
+branch_name=$(git symbolic-ref --short HEAD)
+
+# allowed exact names
+exceptions="release main sandbox develop"
+
+# check if it's one of the exceptions
+for exception in $exceptions; do
+  if [ "$branch_name" = "$exception" ]; then
+    echo "✅ Branch name is valid (exception): $branch_name"
+    exit 0
+  fi
+done
+
+# check against allowed patterns
+if echo "$branch_name" | grep -Eq '^(feat|fix|release|chore|hotfix|refactor|test)/[a-z0-9._-]+$'; then
+  echo "✅ Branch name is valid: $branch_name"
+  exit 0
+fi
+
+# if it doesn't match anything, fail
+echo "❌ Invalid Branch Name: '$branch_name'"
+echo "✅ Use one of the following formats:"
+echo "   - feat/branch-name"
+echo "   - fix/branch-name"
+echo "   - chore/branch-name"
+echo "   - release/branch-name"
+echo "   - OR use one of the exceptions: main, release, sandbox, test"
+exit 1
