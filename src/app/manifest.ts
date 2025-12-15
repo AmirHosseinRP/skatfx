@@ -11,13 +11,13 @@ export default function manifest(): MetadataRoute.Manifest {
     background_color: "#4301fd",
     icons: [
       {
-        src: "/web-app-manifest-192x192.png",
+        src: "/icons/web-app-manifest-192x192.png",
         sizes: "192x192",
         type: "image/png",
         purpose: "any",
       },
       {
-        src: "/web-app-manifest-512x512.png",
+        src: "/icons/web-app-manifest-512x512.png",
         sizes: "512x512",
         type: "image/png",
         purpose: "any",
@@ -25,14 +25,14 @@ export default function manifest(): MetadataRoute.Manifest {
     ],
     screenshots: [
       {
-        src: "/screenshot-cover-3840x2160.png",
+        src: "/icons/screenshot-cover-3840x2160.png",
         sizes: "3840x2160",
         type: "image/png",
         form_factor: "wide",
         label: "form field image",
       },
       {
-        src: "/screenshot-cover-700x1244.png",
+        src: "/icons/screenshot-cover-700x1244.png",
         sizes: "700x1244",
         type: "image/png",
         form_factor: "narrow",

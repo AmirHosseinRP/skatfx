@@ -31,20 +31,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-dvh max-h-dvh overflow-hidden flex flex-col`}
+      >
         <ThemeProvider enableSystem defaultTheme="system">
           {children}
         </ThemeProvider>
 
-        <Script id="register-sw" strategy="afterInteractive">
-          {`
-            if ('serviceWorker' in navigator) {
-              window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/sw.js');
-              });
-            }
-          `}
-        </Script>
+        <Script id="register-sw" strategy="afterInteractive" src="/sw.register.js" />
       </body>
     </html>
   );
