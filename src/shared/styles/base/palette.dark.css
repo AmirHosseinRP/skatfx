@@ -2,9 +2,107 @@ html.dark,
 html[data-theme="dark"] {
   color-scheme: dark;
 
-  --rp-background-primary: #18181b;
-  --rp-background-secondary: #242431;
+  /**
+   * Backgrounds
+   */
+  --background-primary: #171717;
+  --background-secondary: #242424;
 
-  --rp-prose-primary: #f6f6f6;
-  --rp-prose-secondary: #6d6d6d;
+  /**
+   * Prose Colors
+   */
+  --prose-primary: #e1e1e1;
+  --prose-secondary: #a5b0b9;
+  --prose-hint: #7b8b98;
+  --prose-disabled: #5c5c5c;
+  --prose-inverse: #171717;
+  --prose-link: #20c4d7;
+  --prose-brand: #4301fd;
+  --prose-info: #1478c8;
+  --prose-success: #34861e;
+  --prose-warning: #d57f00;
+  --prose-danger: #b72c10;
+
+  /**
+   * Brand Colors (#4301fd)
+   */
+  --brand: #5e24ff;
+  --brand-hover: #5524e7;
+  --brand-active: #4919cc;
+  --brand-light: #cabcff;
+  --brand-light-hover: #b1a0ff;
+  --brand-light-active: #bdaaff;
+
+  /**
+   * Info Colors (Blue)
+   */
+  --info: #007bff;
+  --info-hover: #0069d9;
+  --info-active: #005cbf;
+  --info-light: #e7f2ff;
+  --info-light-hover: #d2e8ff;
+  --info-light-active: #a8d5ff;
+
+  /**
+   * Success Colors (Green)
+   */
+  --success: #43a824;
+  --success-hover: #3c9721;
+  --success-active: #37881c;
+  --success-light: #a7d4a1;
+  --success-light-hover: #a9dca8;
+  --success-light-active: #a9e0ae;
+
+  /**
+   * Warning Colors (Yellow/Orange)
+   */
+  --warning: #d57f00;
+  --warning-hover: #d17f00;
+  --warning-active: #d17f00;
+  --warning-light: #f4d49f;
+  --warning-light-hover: #f6d99d;
+  --warning-light-active: #f7e0a4;
+
+  /**
+   * Danger Colors (Red)
+   */
+  --danger: #b72c10;
+  --danger-hover: #a82d14;
+  --danger-active: #a82d14;
+  --danger-light: #f0b8a5;
+  --danger-light-hover: #f3c0a7;
+  --danger-light-active: #f4c9a9;
+
+  /**
+   * Transparent White (for use on dark/brand backgrounds)
+   */
+  --transparent-white-8: rgba(255, 255, 255, 0.08);
+  --transparent-white-12: rgba(255, 255, 255, 0.12);
+  --transparent-white-16: rgba(255, 255, 255, 0.16);
+  --transparent-white-24: rgba(255, 255, 255, 0.24);
+  --transparent-white-32: rgba(255, 255, 255, 0.32);
+  --transparent-white-48: rgba(255, 255, 255, 0.48);
+  --transparent-white-80: rgba(255, 255, 255, 0.8);
+
+  /**
+   * Transparent Black (for use on light/white backgrounds)
+   */
+  --transparent-black-8: rgba(0, 0, 0, 0.08);
+  --transparent-black-12: rgba(0, 0, 0, 0.12);
+  --transparent-black-16: rgba(0, 0, 0, 0.16);
+  --transparent-black-24: rgba(0, 0, 0, 0.24);
+  --transparent-black-32: rgba(0, 0, 0, 0.32);
+  --transparent-black-48: rgba(0, 0, 0, 0.48);
+  --transparent-black-80: rgba(0, 0, 0, 0.8);
+
+  /**
+   * Shadows
+   */
+  --shadow-xs: 0px 1px 2px 0px rgba(255, 255, 255, 0.05);
+  --shadow-sm: 0px 1px 2px 0px rgba(255, 255, 255, 0.06), 0px 1px 3px 0px rgba(255, 255, 255, 0.1);
+  --shadow-md: 0px 2px 4px 0px rgba(255, 255, 255, 0.06), 0px 4px 8px -2px rgba(255, 255, 255, 0.1);
+  --shadow-lg: 0px 4px 6px -2px rgba(255, 255, 255, 0.03), 0px 12px 16px -4px rgba(255, 255, 255, 0.08);
+  --shadow-xl: 0px 8px 8px -4px rgba(255, 255, 255, 0.03), 0px 20px 24px -4px rgba(255, 255, 255, 0.08);
+  --shadow-2xl: 0px 24px 48px -12px rgba(255, 255, 255, 0.18);
+  --shadow-3xl: 0px 32px 64px -12px rgba(255, 255, 255, 0.14);
 }

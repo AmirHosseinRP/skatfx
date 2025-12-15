@@ -7,11 +7,179 @@
 @theme {
   --breakpoint-xs: 448px;
 
-  --color-background-primary: var(--rp-background-primary);
-  --color-background-secondary: var(--rp-background-secondary);
+  --color-background-primary: var(--background-primary);
+  --color-background-secondary: var(--background-secondary);
 
-  --color-prose-primary: var(--rp-prose-primary);
-  --color-prose-secondary: var(--rp-prose-secondary);
+  --color-prose-primary: var(--prose-primary);
+  --color-prose-secondary: var(--prose-secondary);
+  --color-prose-hint: var(--prose-hint);
+  --color-prose-disabled: var(--prose-disabled);
+  --color-prose-inverse: var(--prose-inverse);
+  --color-prose-link: var(--prose-link);
+  --color-prose-brand: var(--prose-brand);
+  --color-prose-info: var(--prose-info);
+  --color-prose-success: var(--prose-success);
+  --color-prose-warning: var(--prose-warning);
+  --color-prose-danger: var(--prose-danger);
+
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-active: var(--brand-active);
+  --color-brand-light: var(--brand-light);
+  --color-brand-light-hover: var(--brand-light-hover);
+  --color-brand-light-active: var(--brand-light-active);
+
+  --color-info: var(--info);
+  --color-info-hover: var(--info-hover);
+  --color-info-active: var(--info-active);
+  --color-info-light: var(--info-light);
+  --color-info-light-hover: var(--info-light-hover);
+  --color-info-light-active: var(--info-light-active);
+
+  --color-success: var(--success);
+  --color-success-hover: var(--success-hover);
+  --color-success-active: var(--success-active);
+  --color-success-light: var(--success-light);
+  --color-success-light-hover: var(--success-light-hover);
+  --color-success-light-active: var(--success-light-active);
+
+  --color-warning: var(--warning);
+  --color-warning-hover: var(--warning-hover);
+  --color-warning-active: var(--warning-active);
+  --color-warning-light: var(--warning-light);
+  --color-warning-light-hover: var(--warning-light-hover);
+  --color-warning-light-active: var(--warning-light-active);
+
+  --color-danger: var(--danger);
+  --color-danger-hover: var(--danger-hover);
+  --color-danger-active: var(--danger-active);
+  --color-danger-light: var(--danger-light);
+  --color-danger-light-hover: var(--danger-light-hover);
+  --color-danger-light-active: var(--danger-light-active);
+
+  --color-transparent-white-8: var(--transparent-white-8);
+  --color-transparent-white-12: var(--transparent-white-12);
+  --color-transparent-white-16: var(--transparent-white-16);
+  --color-transparent-white-24: var(--transparent-white-24);
+  --color-transparent-white-32: var(--transparent-white-32);
+  --color-transparent-white-48: var(--transparent-white-48);
+  --color-transparent-white-80: var(--transparent-white-80);
+
+  --color-transparent-black-8: var(--transparent-black-8);
+  --color-transparent-black-12: var(--transparent-black-12);
+  --color-transparent-black-16: var(--transparent-black-16);
+  --color-transparent-black-24: var(--transparent-black-24);
+  --color-transparent-black-32: var(--transparent-black-32);
+  --color-transparent-black-48: var(--transparent-black-48);
+  --color-transparent-black-80: var(--transparent-black-80);
+
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+  --shadow-3xl: var(--shadow-3xl);
+
+  --text-heading1: 3rem; /* 48px */
+  --text-heading1--line-height: 1.15;
+  --text-heading1--font-weight: 700;
+
+  --text-heading2: 2.25rem; /* 36px */
+  --text-heading2--line-height: 1.2;
+  --text-heading2--font-weight: 700;
+
+  --text-heading3: 1.875rem; /* 30px */
+  --text-heading3--line-height: 1.25;
+  --text-heading3--font-weight: 600;
+
+  --text-heading4: 1.5rem; /* 24px */
+  --text-heading4--line-height: 1.3;
+  --text-heading4--font-weight: 600;
+
+  --text-heading5: 1.25rem; /* 20px */
+  --text-heading5--line-height: 1.35;
+  --text-heading5--font-weight: 600;
+
+  /**
+   * Subtitles (Often lighter, slightly smaller than headings)
+   */
+  --text-subtitle1: 1.125rem; /* 18px */
+  --text-subtitle1--line-height: 1.5;
+  --text-subtitle1--font-weight: 500;
+
+  --text-subtitle2: 1rem; /* 16px */
+  --text-subtitle2--line-height: 1.5;
+  --text-subtitle2--font-weight: 500;
+
+  --text-subtitle3: 0.9375rem; /* 15px */
+  --text-subtitle3--line-height: 1.55;
+  --text-subtitle3--font-weight: 500;
+
+  --text-subtitle4: 0.875rem; /* 14px */
+  --text-subtitle4--line-height: 1.55;
+  --text-subtitle4--font-weight: 500;
+
+  --text-subtitle5: 0.8125rem; /* 13px */
+  --text-subtitle5--line-height: 1.6;
+  --text-subtitle5--font-weight: 500;
+
+  --text-subtitle6: 0.75rem; /* 12px */
+  --text-subtitle6--line-height: 1.6;
+  --text-subtitle6--font-weight: 500;
+
+  /**
+   * Paragraph/Body Text (Standard weight, accessible line-height)
+   */
+  --text-paragraph1: 1rem; /* 16px - Standard body text size */
+  --text-paragraph1--line-height: 1.5;
+  --text-paragraph1--font-weight: 400;
+
+  --text-paragraph2: 0.9375rem; /* 15px */
+  --text-paragraph2--line-height: 1.55;
+  --text-paragraph2--font-weight: 400;
+
+  --text-paragraph3: 0.875rem; /* 14px */
+  --text-paragraph3--line-height: 1.6;
+  --text-paragraph3--font-weight: 400;
+
+  --text-paragraph4: 0.8125rem; /* 13px */
+  --text-paragraph4--line-height: 1.6;
+  --text-paragraph4--font-weight: 400;
+
+  --text-paragraph5: 0.75rem; /* 12px */
+  --text-paragraph5--line-height: 1.65;
+  --text-paragraph5--font-weight: 400;
+
+  /**
+   * Labels (Used for form elements, buttons, or small, important text)
+   */
+  --text-label1: 0.875rem; /* 14px */
+  --text-label1--line-height: 1.4;
+  --text-label1--font-weight: 500;
+
+  --text-label2: 0.8125rem; /* 13px */
+  --text-label2--line-height: 1.4;
+  --text-label2--font-weight: 500;
+
+  --text-label3: 0.75rem; /* 12px */
+  --text-label3--line-height: 1.4;
+  --text-label3--font-weight: 500;
+
+  --text-label4: 0.6875rem; /* 11px */
+  --text-label4--line-height: 1.4;
+  --text-label4--font-weight: 500;
+
+  /**
+   * Captions (Smallest text, for context, hints, footnotes)
+   */
+  --text-caption1: 0.75rem; /* 12px */
+  --text-caption1--line-height: 1.6;
+  --text-caption1--font-weight: 400;
+
+  --text-caption2: 0.6875rem; /* 11px */
+  --text-caption2--line-height: 1.6;
+  --text-caption2--font-weight: 400;
 }
 
 @layer base {
