@@ -1,5 +1,11 @@
-import ThemeToggle from "~/components/atoms/ThemeToggle/ThemeToggle";
+import Header from "~/components/atoms/Header/Header";
 
 export default function Home() {
-  return <ThemeToggle />;
+  return (
+    <>
+      <Header />
+
+      <main className="mt-32"></main>
+    </>
+  );
 }
