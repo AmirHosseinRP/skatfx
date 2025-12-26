@@ -5,6 +5,29 @@ import { Button } from "~/shadcn/components/ui/button";
 import { icons } from "~/shared/libs/icons";
 import { routes } from "~/shared/libs/routes";
 
+const navItems = [
+  {
+    title: "Benefits",
+    link: "#",
+  },
+  {
+    title: "Process",
+    link: "#",
+  },
+  {
+    title: "Pricing",
+    link: "#",
+  },
+  {
+    title: "Testimonial",
+    link: "#",
+  },
+  {
+    title: "Questions",
+    link: "#",
+  },
+];
+
 export default function Header() {
   return (
     <header className="fixed w-full max-w-5xl">
@@ -14,21 +37,13 @@ export default function Header() {
         </Link>
 
         <div className="flex flex-row justify-center items-center">
-          <Button color="neutral" variant="text">
-            Benefits
-          </Button>
-          <Button color="neutral" variant="text">
-            Process
-          </Button>
-          <Button color="neutral" variant="text">
-            Pricing
-          </Button>
-          <Button color="neutral" variant="text">
-            Testimonial
-          </Button>
-          <Button color="neutral" variant="text">
-            Questions
-          </Button>
+          {navItems.map(item => {
+            return (
+              <Button key={item.title} href={item.link} color="neutral" variant="text">
+                {item.title}
+              </Button>
+            );
+          })}
         </div>
 
         <Button size="lg" color="brand">
