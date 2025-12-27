@@ -58,6 +58,17 @@
   --color-danger-light-hover: var(--danger-light-hover);
   --color-danger-light-active: var(--danger-light-active);
 
+  --color-gray-50: var(--skatfx-gray-50);
+  --color-gray-100: var(--skatfx-gray-100);
+  --color-gray-200: var(--skatfx-gray-200);
+  --color-gray-300: var(--skatfx-gray-300);
+  --color-gray-400: var(--skatfx-gray-400);
+  --color-gray-500: var(--skatfx-gray-500);
+  --color-gray-600: var(--skatfx-gray-600);
+  --color-gray-700: var(--skatfx-gray-700);
+  --color-gray-800: var(--skatfx-gray-800);
+  --color-gray-900: var(--skatfx-gray-900);
+
   --color-transparent-white-8: var(--transparent-white-8);
   --color-transparent-white-12: var(--transparent-white-12);
   --color-transparent-white-16: var(--transparent-white-16);

@@ -8,7 +8,7 @@ import { cn } from "~/shadcn/lib/utils";
 const colorConfig = {
   brand: {
     contained:
-      "text-prose-inverse bg-brand/90 border-0 hover:bg-brand-hover/90 active:bg-brand-active/90 active:shadow-focus-brand",
+      "text-white bg-brand/90 border-0 hover:bg-brand-hover/90 active:bg-brand-active/90 active:shadow-focus-brand",
     tinted:
       "border-0 text-brand bg-brand-light hover:bg-brand-light-hover active:bg-brand-light-active active:shadow-focus-brand",
     outlined:
@@ -71,7 +71,7 @@ const buttonVariants = cva(
         contained: "shadow-xs",
         outlined: "border bg-background shadow-xs",
         tinted: "",
-        text: "bg-transparent text-primary/70 hover:bg-accent hover:text-accent-foreground",
+        text: "bg-transparent text-prose-primary hover:bg-accent hover:text-accent-foreground",
       },
       size: {
         sm: "h-8 rounded-md gap-1.5 px-3",

@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased h-dvh max-h-dvh overflow-hidden flex flex-col items-center`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background-primary h-dvh max-h-dvh overflow-hidden flex flex-col items-center`}
       >
         <ThemeProvider enableSystem defaultTheme="system">
           <Layout>{children}</Layout>

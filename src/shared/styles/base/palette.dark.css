@@ -74,6 +74,20 @@ html[data-theme="dark"] {
   --danger-light-active: #f4c9a9;
 
   /**
+   * Gray Colors
+   */
+  --skatfx-gray-50: #101828;
+  --skatfx-gray-100: #1e2939;
+  --skatfx-gray-200: #364153;
+  --skatfx-gray-300: #4a5565;
+  --skatfx-gray-400: #6a7282;
+  --skatfx-gray-500: #99a1af;
+  --skatfx-gray-600: #d1d5dc;
+  --skatfx-gray-700: #e5e7eb;
+  --skatfx-gray-800: #f3f4f6;
+  --skatfx-gray-900: #f9fafb;
+
+  /**
    * Transparent White (for use on dark/brand backgrounds)
    */
   --transparent-white-8: rgba(255, 255, 255, 0.08);
