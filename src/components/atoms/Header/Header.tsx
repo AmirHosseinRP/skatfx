@@ -1,7 +1,11 @@
+"use client";
+
 import { ChevronRight } from "lucide-react";
+import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import Link from "next/link";
-import ThemeToggle from "~/components/atoms/ThemeToggle/ThemeToggle";
+import { useState } from "react";
+import HamburgerButton from "~/components/atoms/HamburgerButton/HamburgerButton";
 import { Button } from "~/shadcn/components/ui/button";
 import { icons } from "~/shared/libs/icons";
 import { routes } from "~/shared/libs/routes";
@@ -30,14 +34,14 @@ const navItems = [
 ];
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <header className="fixed w-full max-w-5xl">
-      <nav className="bg-gray-200 p-3 mx-7 mt-7 rounded-xl flex flex-row justify-between items-center">
+    <header className="fixed w-full max-w-5xl z-9999">
+      <nav className="hidden md:flex bg-gray-200/50 backdrop-blur-md min-h-17 p-3 mx-7 mt-7 rounded-xl flex-row justify-between items-center">
         <Link href={routes.home()} className="min-w-23 pl-2">
           <Image src={icons.skatfx.src} alt={icons.skatfx.alt} width={24} height={24} priority />
         </Link>
-
-        <ThemeToggle />
 
         <div className="flex flex-row justify-center items-center">
           {navItems.map(item => {
@@ -53,6 +57,42 @@ export default function Header() {
           Join <ChevronRight />
         </Button>
       </nav>
+
+      <nav className="flex md:hidden bg-gray-200/50 backdrop-blur-md flex-row justify-between items-center min-h-17 p-4 shadow-xl">
+        <Link href={routes.home()} className="min-w-23 pl-2">
+          <Image src={icons.skatfx.src} alt={icons.skatfx.alt} width={24} height={24} priority />
+        </Link>
+
+        <HamburgerButton isOpen={isMenuOpen} onToggle={() => setIsMenuOpen(prev => !prev)} />
+      </nav>
+
+      <AnimatePresence>
+        {isMenuOpen && (
+          <motion.div
+            initial={{ height: 0 }}
+            animate={{ height: isMenuOpen ? "fit-content" : 0 }}
+            exit={{ height: 0 }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="overflow-hidden"
+          >
+            <div className="flex flex-col justify-center items-stretch gap-4 bg-gray-200/50 backdrop-blur-md py-7 px-4">
+              {navItems.map(item => {
+                return (
+                  <Button
+                    key={item.title}
+                    href={item.link}
+                    color="neutral"
+                    variant="text"
+                    className="!text-heading3 !text-start"
+                  >
+                    {item.title}
+                  </Button>
+                );
+              })}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

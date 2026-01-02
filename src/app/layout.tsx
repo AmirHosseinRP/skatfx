@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
-import type { ReactNode } from "react";
+import type { PropsWithChildren } from "react";
 
 import "~/shared/styles/globals.css";
 import Layout from "~/components/atoms/Layout/Layout";
@@ -25,17 +25,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background-primary h-dvh max-h-dvh overflow-hidden flex flex-col items-center`}
       >
-        <ThemeProvider enableSystem defaultTheme="system">
+        <ThemeProvider enableSystem defaultTheme="light">
           <Layout>{children}</Layout>
         </ThemeProvider>
 
