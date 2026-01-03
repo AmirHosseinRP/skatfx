@@ -7,7 +7,7 @@ type Props = {
 
 export default function HamburgerButton(props: Props) {
   const lineClasses =
-    "fill-none stroke-[#272937] stroke-[2px] stroke-linecap-round stroke-linejoin-round transition-[stroke-dasharray,stroke-dashoffset] duration-600 ease-in-out";
+    "fill-none stroke-prose-primary stroke-[2px] stroke-linecap-round stroke-linejoin-round transition-[stroke-dasharray,stroke-dashoffset] duration-600 ease-in-out";
 
   return (
     <button
