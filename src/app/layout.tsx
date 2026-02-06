@@ -3,9 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "next-themes";
 import type { PropsWithChildren } from "react";
+import Layout from "~/components/atoms/Layout/Layout";
 
 import "~/shared/styles/globals.css";
-import Layout from "~/components/atoms/Layout/Layout";
+import "~/shared/i18n";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

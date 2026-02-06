@@ -1,3 +1,6 @@
+"use client";
+
+import { useTranslation } from "react-i18next";
 import ThemedImage from "~/components/atoms/ThemedImage/ThemedImage";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -5,12 +8,15 @@ import { images } from "~/shared/libs/images";
 import ReviewBoxCount from "~/views/ReviewCountBox/ReviewCountBox";
 
 export default function Hero() {
+  const { t } = useTranslation();
+
   return (
     <section className="flex flex-col items-center">
       <div className="w-full max-w-xl flex flex-col gap-3 text-center">
         <ScrollReveal>
           <Typography variant="heading2" tagName="h1">
-            Strategic trading, backed by transparency<span className="text-prose-brand">.</span>
+            {t("hero.headline")}
+            <span className="text-prose-brand">.</span>
           </Typography>
         </ScrollReveal>
 
