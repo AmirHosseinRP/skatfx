@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import ThemedImage from "~/components/atoms/ThemedImage/ThemedImage";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -5,12 +6,15 @@ import { images } from "~/shared/libs/images";
 import ReviewBoxCount from "~/views/ReviewCountBox/ReviewCountBox";
 
 export default function Hero() {
+  const getMessage = useTranslations();
+
   return (
     <section className="flex flex-col items-center">
       <div className="w-full max-w-xl flex flex-col gap-3 text-center">
         <ScrollReveal>
           <Typography variant="heading2" tagName="h1">
-            Strategic trading, backed by transparency<span className="text-prose-brand">.</span>
+            {getMessage("hero.headline")}
+            <span className="text-prose-brand">.</span>
           </Typography>
         </ScrollReveal>
 
@@ -31,7 +35,7 @@ export default function Hero() {
               alt={images.worldMap.alt}
               width={700}
               height={500}
-              className="rounded-full border-2 border-background-secondary"
+              className="rounded-4xl border-2 border-background-secondary"
             />
           </ScrollReveal>
 

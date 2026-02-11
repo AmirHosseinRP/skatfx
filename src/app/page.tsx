@@ -1,3 +1,4 @@
+import { LanguageSwitch } from "~/components/atoms/LanguageSwitch/LanguageSwitch";
 import ThemeToggle from "~/components/atoms/ThemeToggle/ThemeToggle";
 import Header from "~/views/Header/Header";
 import Hero from "~/views/Hero/Hero";
@@ -9,6 +10,7 @@ export default function Home() {
 
       <div className="fixed bottom-0 right-0">
         <ThemeToggle />
+        <LanguageSwitch />
       </div>
 
       <main className="mt-28 md:mt-36 px-7">

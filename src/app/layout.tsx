@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import type { PropsWithChildren } from "react";
 
 import "~/shared/styles/globals.css";
+import { NextIntlClientProvider } from "next-intl";
 import Layout from "~/components/atoms/Layout/Layout";
 
 const geistSans = Geist({
@@ -31,9 +32,11 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background-primary h-dvh max-h-dvh overflow-hidden flex flex-col items-center`}
       >
-        <ThemeProvider enableSystem defaultTheme="light">
-          <Layout>{children}</Layout>
-        </ThemeProvider>
+        <NextIntlClientProvider>
+          <ThemeProvider enableSystem defaultTheme="light">
+            <Layout>{children}</Layout>
+          </ThemeProvider>
+        </NextIntlClientProvider>
 
         <Script id="register-sw" strategy="afterInteractive" src="/sw.register.js" />
       </body>
