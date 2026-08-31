@@ -1,5 +1,244 @@
 {
   "hero": {
     "headline": "Strategic trading, backed by transparency"
+  },
+  "nav": {
+    "benefits": "Benefits",
+    "process": "Process",
+    "pricing": "Pricing",
+    "testimonial": "Testimonial",
+    "questions": "Questions",
+    "join": "Join"
+  },
+  "trustStrip": {
+    "clients": "+100 clients",
+    "countries": "In +38 countries",
+    "support": "24/7 support",
+    "rrRatio": "1:3 minimum RR ratio",
+    "experience": "+7 years of team experience",
+    "mentors": "+2 expert mentors"
+  },
+  "benefits": {
+    "title": "Why Choose Skatfx",
+    "items": {
+      "transparentReports": {
+        "title": "Transparent Performance Reports",
+        "description": "Weekly and monthly real trading results."
+      },
+      "educationalContent": {
+        "title": "Exclusive Educational Content",
+        "description": "Ebooks, video courses, and mentorship programs produced by our expert team."
+      },
+      "subscriptionSafeguard": {
+        "title": "Subscription Safeguard",
+        "description": "Partial refund if monthly goals are not met (T&Cs apply)."
+      },
+      "support247": {
+        "title": "24/7 Professional Support",
+        "description": "Always here to answer your trading and learning questions."
+      },
+      "highQualityAnalysis": {
+        "title": "High-Quality Analysis",
+        "description": "Accurate, easy-to-understand insights based on real market experience."
+      }
+    }
+  },
+  "process": {
+    "title": "A Clear Framework for Smarter Market Decisions",
+    "steps": {
+      "analyze": {
+        "title": "Analyze the Market",
+        "description": "We track market structure, liquidity conditions, and key price behavior to identify high-quality opportunities."
+      },
+      "buildPlan": {
+        "title": "Build a Trade Plan",
+        "description": "When conditions align, we prepare a clear plan with defined levels, invalidation, and realistic objectives."
+      },
+      "execute": {
+        "title": "Execute with Risk Control",
+        "description": "All shared trade ideas follow strict risk limits and consistent risk-to-reward logic — quality over frequency."
+      },
+      "document": {
+        "title": "Document & Review",
+        "description": "Outcomes are tracked and compiled into regular performance reports, covering both strong and difficult periods."
+      },
+      "support": {
+        "title": "Ongoing Support",
+        "description": "Members receive continued guidance on execution discipline, risk management, and expectation alignment."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choose your plan",
+    "subtitle": "Preview of Skatfx Club",
+    "edge": {
+      "name": "SkatFX Edge",
+      "price": "$78",
+      "period": "/ Month",
+      "subtitle": "Best for those who want fast, reliable signals & expert support with minimal commitment.",
+      "cta": "Subscribe to Edge",
+      "features": {
+        "setups": "High-Quality Trading Setups (60% win rate, always with minimum 1:3 RR, no partial exits)",
+        "signals": "Signals from 3 Elite Traders (Diverse views, stronger performance)",
+        "safeguard": "Subscription Safeguard (If you don't make profits by end of month = partial refund, T&Cs apply)",
+        "analysis": "VIP Weekly Market Analysis",
+        "support": "24/7 Premium Support"
+      }
+    },
+    "prime": {
+      "name": "SkatFX Prime",
+      "price": "$248",
+      "period": "/ 3 Months",
+      "subtitle": "For serious traders looking to level up with strategy, education & deep mentorship.",
+      "cta": "Subscribe to Prime",
+      "features": {
+        "everythingInEdge": "Everything in Edge Plan",
+        "educationalContent": "Full Access to Premium Educational Content (Ebooks)",
+        "mentorship": "48 Hours of Live Mentorship"
+      }
+    },
+    "performanceReports": "Click here for performance reports",
+    "howItWorks": "Click here to see how Skatfx Club works"
+  },
+  "about": {
+    "title": "About Us",
+    "whoWeAre": {
+      "title": "Who We Are",
+      "description": "A compact team of professional traders delivering structured analysis, transparent reporting, and proven methodologies. Our framework is built on data, documentation, and real market execution instead of recycled theory."
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "items": [
+        "Transparent performance",
+        "Professional standards",
+        "Exclusive educational content",
+        "Continuous support",
+        "Respect for your time and capital"
+      ]
+    },
+    "edge": {
+      "title": "Our Edge",
+      "description": "We don't rely on hype. We rely on evidence. Every trading setup, report, training module, and insight is rooted in verifiable data, measurable outcomes, and a disciplined trading process."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "seeMore": "Click here to see more testimonials",
+    "items": [
+      {
+        "name": "Alex T.",
+        "country": "USA",
+        "quote": "I bought a $300K challenge account and I could pass it with your signals. The process was smooth, the guidance clear, and the team's support was always friendly and helpful. And I could finally get payouts from prop trading, and now after 6 months of subscription I have learnt enough to trade on my own with confidence."
+      },
+      {
+        "name": "Umut G.",
+        "country": "Turkey",
+        "quote": "I can say that SkatFX is the most successful group I have ever seen. They're enough confident in what they do so they call losses, losses, and profits, profits. Really transparent"
+      },
+      {
+        "name": "David R.",
+        "country": "UK",
+        "quote": "The admins are always kind and approachable. Whenever I had questions about signals or strategies, they responded quickly and explained everything clearly."
+      },
+      {
+        "name": "Sergey K.",
+        "country": "Germany",
+        "quote": "I made 24K on a 300K funded account using your signals, thank you."
+      },
+      {
+        "name": "John R.",
+        "country": "UAE",
+        "quote": "Your mentorship sessions are excellent, and the team's guidance is practical and easy to follow. Keep going."
+      },
+      {
+        "name": "Liam O.",
+        "country": "Ireland",
+        "quote": "Made more than 10K in almost 6 months during my subscription to Skatfx premium"
+      },
+      {
+        "name": "Arjun M.",
+        "country": "India",
+        "quote": "Thank you guys, The signals are usually profitable and precise and the weekly analysis are really helpful."
+      },
+      {
+        "name": "Hassan A.",
+        "country": "Saudi Arabia",
+        "quote": "The support is great. They are patient, friendly, and always ready to explain any question I have. It makes everything much easier."
+      },
+      {
+        "name": "Alex B.",
+        "country": "Italy",
+        "quote": "Everything has been great during my 3 months of subscription, thank you"
+      },
+      {
+        "name": "Eric W.",
+        "country": "Hong Kong",
+        "quote": "Mentorship sessions are so good, signals are good, support is also nice."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Is your performance guaranteed?",
+        "answer": "No trading performance is ever guaranteed. What we do provide is transparency, data-driven analysis, and documented reporting."
+      },
+      {
+        "question": "How does Subscription Safeguard work?",
+        "answer": "If the monthly performance target is not met, a portion of the membership fee may be refunded based on the plan's specific terms and conditions."
+      },
+      {
+        "question": "What markets do your signals cover?",
+        "answer": "Our trade ideas focus on Forex and commodities."
+      },
+      {
+        "question": "Is the training suitable for beginners?",
+        "answer": "The Prime plan includes a structured curriculum covering fundamentals through advanced execution, designed to support newer traders."
+      },
+      {
+        "question": "How can I contact support?",
+        "answer": "Support is available 24/7 via Telegram, WhatsApp, and email."
+      },
+      {
+        "question": "What are the payment methods?",
+        "answer": "Currently, payments are accepted via cryptocurrency only, including BTC, USDT, USDC, SOL, and TRX."
+      },
+      {
+        "question": "What time do you send signals?",
+        "answer": "Most updates are shared between 09:00 and 17:00 UTC, covering the London session and overlapping with New York."
+      },
+      {
+        "question": "Are your trade setups compatible with copy trading tools?",
+        "answer": "Yes. Our orders are designed to be clear, structured, and copy-friendly, with detailed entries and transparent updates."
+      },
+      {
+        "question": "Do you take partial profits (partial closes) on trades?",
+        "answer": "No, we don't use partial profit taking. Each setup is structured with 1 take profit (TP) and 1 stop loss (SL). As a result, outcomes are recorded as TP, SL or Break-Even (BE)."
+      },
+      {
+        "question": "What is your win rate?",
+        "answer": "Win rate is not fixed and can vary with market conditions. Historically, it has typically ranged between 55% and 65%."
+      },
+      {
+        "question": "What is your minimum risk to reward ratio (RR)?",
+        "answer": "Our minimum risk to reward (RR) per trade is 1:3. This means each setup is structured to target at least three units of potential reward for every one unit of risk, when conditions allow."
+      },
+      {
+        "question": "What type of orders do you usually use?",
+        "answer": "Most of our setups are structured as limit orders. Historically, around 85% of our trade ideas are limits, with the remainder typically executed as market orders when conditions require."
+      }
+    ]
+  },
+  "footer": {
+    "email": "Skattfx@gmail.com",
+    "telegram": "@skatfxtrader",
+    "whatsapp": "+44 7745170344",
+    "address": "71-75 Shelton Street, Covent Garden, London, UK",
+    "terms": "Terms of Service",
+    "safeguard": "Safeguard (Refund Policy)",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "copyright": "© 2024 Skatfx. All rights reserved."
   }
 }

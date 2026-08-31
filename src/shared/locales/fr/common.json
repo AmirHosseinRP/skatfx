@@ -1,5 +1,244 @@
 {
   "hero": {
     "headline": "Trading stratégique, soutenu par la transparence"
+  },
+  "nav": {
+    "benefits": "Avantages",
+    "process": "Processus",
+    "pricing": "Tarifs",
+    "testimonial": "Témoignages",
+    "questions": "Questions",
+    "join": "Rejoindre"
+  },
+  "trustStrip": {
+    "clients": "+100 clients",
+    "countries": "Dans +38 pays",
+    "support": "Support 24/7",
+    "rrRatio": "Ratio RR minimum de 1:3",
+    "experience": "+7 ans d'expérience d'équipe",
+    "mentors": "+2 mentors experts"
+  },
+  "benefits": {
+    "title": "Pourquoi choisir Skatfx",
+    "items": {
+      "transparentReports": {
+        "title": "Rapports de performance transparents",
+        "description": "Résultats de trading réels hebdomadaires et mensuels."
+      },
+      "educationalContent": {
+        "title": "Contenu éducatif exclusif",
+        "description": "Ebooks, cours vidéo et programmes de mentorat produits par notre équipe d'experts."
+      },
+      "subscriptionSafeguard": {
+        "title": "Protection par abonnement",
+        "description": "Remboursement partiel si les objectifs mensuels ne sont pas atteints (conditions générales applicables)."
+      },
+      "support247": {
+        "title": "Support professionnel 24/7",
+        "description": "Toujours là pour répondre à vos questions sur le trading et l'apprentissage."
+      },
+      "highQualityAnalysis": {
+        "title": "Analyse de haute qualité",
+        "description": "Informations précises et faciles à comprendre, basées sur une expérience réelle du marché."
+      }
+    }
+  },
+  "process": {
+    "title": "Un cadre clair pour des décisions de marché plus judicieuses",
+    "steps": {
+      "analyze": {
+        "title": "Analyser le marché",
+        "description": "Nous suivons la structure du marché, les conditions de liquidité et les comportements clés des prix pour identifier les opportunités de haute qualité."
+      },
+      "buildPlan": {
+        "title": "Élaborer un plan de trading",
+        "description": "Lorsque les conditions sont réunies, nous préparons un plan clair avec des niveaux définis, une invalidation et des objectifs réalistes."
+      },
+      "execute": {
+        "title": "Exécuter avec contrôle des risques",
+        "description": "Toutes les idées de trading partagées suivent des limites de risque strictes et une logique risque/récompense cohérente — la qualité prime sur la fréquence."
+      },
+      "document": {
+        "title": "Documenter et revoir",
+        "description": "Les résultats sont suivis et compilés dans des rapports de performance réguliers, couvrant les périodes difficiles et les réussites."
+      },
+      "support": {
+        "title": "Accompagnement continu",
+        "description": "Les membres reçoivent un accompagnement continu sur la discipline d'exécution, la gestion des risques et l'alignement des attentes."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choisissez votre formule",
+    "subtitle": "Aperçu du Skatfx Club",
+    "edge": {
+      "name": "SkatFX Edge",
+      "price": "78 $",
+      "period": "/ Mois",
+      "subtitle": "Idéal pour ceux qui souhaitent des signaux rapides et fiables et un support d'expert avec un engagement minimal.",
+      "cta": "S'abonner à Edge",
+      "features": {
+        "setups": "Configurations de trading de haute qualité (taux de réussite de 60%, toujours avec un ratio RR minimum de 1:3, sans sorties partielles)",
+        "signals": "Signaux de 3 traders d'élite (points de vue diversifiés, performance renforcée)",
+        "safeguard": "Protection par abonnement (si vous ne réalisez pas de bénéfices en fin de mois = remboursement partiel, conditions générales applicables)",
+        "analysis": "Analyse hebdomadaire VIP du marché",
+        "support": "Support premium 24/7"
+      }
+    },
+    "prime": {
+      "name": "SkatFX Prime",
+      "price": "248 $",
+      "period": "/ 3 Mois",
+      "subtitle": "Pour les traders sérieux qui cherchent à progresser avec la stratégie, la formation et un mentorat approfondi.",
+      "cta": "S'abonner à Prime",
+      "features": {
+        "everythingInEdge": "Tout ce qui est inclus dans Edge",
+        "educationalContent": "Accès complet au contenu éducatif premium (Ebooks)",
+        "mentorship": "48 heures de mentorat en direct"
+      }
+    },
+    "performanceReports": "Cliquez ici pour les rapports de performance",
+    "howItWorks": "Cliquez ici pour voir comment fonctionne Skatfx Club"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "whoWeAre": {
+      "title": "Qui nous sommes",
+      "description": "Une équipe compacte de traders professionnels offrant des analyses structurées, des rapports transparents et des méthodologies éprouvées. Notre cadre repose sur les données, la documentation et l'exécution réelle sur le marché plutôt que sur la théorie recyclée."
+    },
+    "commitment": {
+      "title": "Notre engagement",
+      "items": [
+        "Performance transparente",
+        "Standards professionnels",
+        "Contenu éducatif exclusif",
+        "Support continu",
+        "Respect de votre temps et de votre capital"
+      ]
+    },
+    "edge": {
+      "title": "Notre avantage",
+      "description": "Nous ne nous fions pas à l'hype. Nous nous fions aux preuves. Chaque configuration de trading, rapport, module de formation et analyse est enraciné dans des données vérifiables, des résultats mesurables et un processus de trading discipliné."
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "seeMore": "Cliquez ici pour voir plus de témoignages",
+    "items": [
+      {
+        "name": "Alex T.",
+        "country": "États-Unis",
+        "quote": "J'ai acheté un compte challenge de 300K et j'ai pu le valider avec vos signaux. Le processus était fluide, les conseils clairs et le support de l'équipe toujours amical et utile. J'ai enfin pu obtenir des paiements du trading de fonds, et maintenant après 6 mois d'abonnement j'ai appris suffisamment pour trader en toute confiance."
+      },
+      {
+        "name": "Umut G.",
+        "country": "Turquie",
+        "quote": "Je peux dire que SkatFX est le groupe le plus réussi que j'aie jamais vu. Ils sont suffisamment confiants dans ce qu'ils font pour appeler les pertes, des pertes, et les bénéfices, des bénéfices. Vraiment transparent."
+      },
+      {
+        "name": "David R.",
+        "country": "Royaume-Uni",
+        "quote": "Les administrateurs sont toujours gentils et accessibles. Chaque fois que j'avais des questions sur les signaux ou les stratégies, ils répondaient rapidement et expliquaient tout clairement."
+      },
+      {
+        "name": "Sergey K.",
+        "country": "Allemagne",
+        "quote": "J'ai fait 24K sur un compte financé de 300K en utilisant vos signaux, merci."
+      },
+      {
+        "name": "John R.",
+        "country": "EAU",
+        "quote": "Vos sessions de mentorat sont excellentes, et les conseils de l'équipe sont pratiques et faciles à suivre. Continuez."
+      },
+      {
+        "name": "Liam O.",
+        "country": "Irlande",
+        "quote": "J'ai fait plus de 10K en presque 6 mois pendant mon abonnement à Skatfx premium"
+      },
+      {
+        "name": "Arjun M.",
+        "country": "Inde",
+        "quote": "Merci les gars, les signaux sont généralement rentables et précis et les analyses hebdomadaires sont vraiment utiles."
+      },
+      {
+        "name": "Hassan A.",
+        "country": "Arabie Saoudite",
+        "quote": "Le support est excellent. Ils sont patients, amicaux et toujours prêts à répondre à n'importe quelle question que j'ai. Cela rend tout beaucoup plus facile."
+      },
+      {
+        "name": "Alex B.",
+        "country": "Italie",
+        "quote": "Tout a été génial pendant mes 3 mois d'abonnement, merci"
+      },
+      {
+        "name": "Eric W.",
+        "country": "Hong Kong",
+        "quote": "Les sessions de mentorat sont très bonnes, les signaux sont bons, le support est aussi agréable."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "items": [
+      {
+        "question": "Votre performance est-elle garantie ?",
+        "answer": "Aucune performance de trading n'est jamais garantie. Ce que nous fournissons, c'est la transparence, une analyse basée sur les données et des rapports documentés."
+      },
+      {
+        "question": "Comment fonctionne la Protection par abonnement ?",
+        "answer": "Si l'objectif de performance mensuel n'est pas atteint, une partie des frais d'abonnement peut être remboursée selon les conditions spécifiques de la formule."
+      },
+      {
+        "question": "Quels marchés couvrent vos signaux ?",
+        "answer": "Nos idées de trading se concentrent sur le Forex et les matières premières."
+      },
+      {
+        "question": "La formation est-elle adaptée aux débutants ?",
+        "answer": "La formule Prime comprend un cursus structuré couvrant les fondamentaux jusqu'à l'exécution avancée, conçu pour soutenir les traders débutants."
+      },
+      {
+        "question": "Comment puis-je contacter le support ?",
+        "answer": "Le support est disponible 24/7 via Telegram, WhatsApp et email."
+      },
+      {
+        "question": "Quels sont les modes de paiement ?",
+        "answer": "Actuellement, les paiements sont acceptés uniquement en cryptomonnaie, y compris BTC, USDT, USDC, SOL et TRX."
+      },
+      {
+        "question": "À quelle heure envoyez-vous les signaux ?",
+        "answer": "La plupart des mises à jour sont partagées entre 09h00 et 17h00 UTC, couvrant la session de Londres et chevauchant avec New York."
+      },
+      {
+        "question": "Vos configurations de trading sont-elles compatibles avec les outils de copy trading ?",
+        "answer": "Oui. Nos ordres sont conçus pour être clairs, structurés et adaptés au copy trading, avec des entrées détaillées et des mises à jour transparentes."
+      },
+      {
+        "question": "Prenez-vous des bénéfices partiels (clôtures partielles) sur les trades ?",
+        "answer": "Non, nous n'utilisons pas la prise de bénéfices partielle. Chaque configuration est structurée avec 1 take profit (TP) et 1 stop loss (SL). En conséquence, les résultats sont enregistrés comme TP, SL ou Break-Even (BE)."
+      },
+      {
+        "question": "Quel est votre taux de réussite ?",
+        "answer": "Le taux de réussite n'est pas fixe et peut varier selon les conditions du marché. Historiquement, il a généralement varié entre 55% et 65%."
+      },
+      {
+        "question": "Quel est votre ratio risque/récompense (RR) minimum ?",
+        "answer": "Notre ratio risque/récompense (RR) minimum par trade est de 1:3. Cela signifie que chaque configuration est structurée pour viser au moins trois unités de récompense potentielle pour chaque unité de risque, lorsque les conditions le permettent."
+      },
+      {
+        "question": "Quel type d'ordres utilisez-vous généralement ?",
+        "answer": "La plupart de nos configurations sont structurées sous forme d'ordres à cours limité. Historiquement, environ 85% de nos idées de trading sont des limites, le reste étant généralement exécuté comme des ordres au marché lorsque les conditions l'exigent."
+      }
+    ]
+  },
+  "footer": {
+    "email": "Skattfx@gmail.com",
+    "telegram": "@skatfxtrader",
+    "whatsapp": "+44 7745170344",
+    "address": "71-75 Shelton Street, Covent Garden, London, UK",
+    "terms": "Conditions d'utilisation",
+    "safeguard": "Protection (Politique de remboursement)",
+    "privacy": "Politique de confidentialité",
+    "disclaimer": "Avertissement",
+    "copyright": "© 2024 Skatfx. Tous droits réservés."
   }
 }

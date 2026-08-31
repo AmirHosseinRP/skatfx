@@ -1,23 +1,31 @@
-import { LanguageSwitch } from "~/components/atoms/LanguageSwitch/LanguageSwitch";
-import ThemeToggle from "~/components/atoms/ThemeToggle/ThemeToggle";
+import AboutUs from "~/views/AboutUs/AboutUs";
+import Benefits from "~/views/Benefits/Benefits";
+import FAQ from "~/views/FAQ/FAQ";
+import Footer from "~/views/Footer/Footer";
 import Header from "~/views/Header/Header";
 import Hero from "~/views/Hero/Hero";
+import Pricing from "~/views/Pricing/Pricing";
+import Process from "~/views/Process/Process";
+import Testimonials from "~/views/Testimonials/Testimonials";
+import TrustStrip from "~/views/TrustStrip/TrustStrip";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      <div className="fixed bottom-0 right-0 flex flex-col gap-3">
-        <ThemeToggle />
-        <LanguageSwitch />
-      </div>
-
       <main className="mt-28 md:mt-36 px-7">
         <Hero />
+        <TrustStrip />
+        <Benefits />
+        <Process />
+        <Pricing />
+        <AboutUs />
+        <Testimonials />
+        <FAQ />
       </main>
 
-      <footer className="min-h-20 mt-28 bg-gray-100 w-full flex justify-center items-center">footer</footer>
+      <Footer />
     </>
   );
 }

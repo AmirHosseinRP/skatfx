@@ -4,13 +4,16 @@ import { Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 export default function ThemeToggle() {
-  const { setTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
 
   return (
-    <div className="flex gap-3">
-      <Sun onClick={() => setTheme("light")} className="text-prose-primary" />
-
-      <Moon onClick={() => setTheme("dark")} className="text-prose-primary" />
-    </div>
+    <button
+      type="button"
+      onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
+      className="flex items-center justify-center size-8 rounded-md border border-background-secondary text-prose-secondary hover:text-prose-primary transition-colors"
+      aria-label="Toggle theme"
+    >
+      {resolvedTheme === "dark" ? <Sun className="size-4" /> : <Moon className="size-4" />}
+    </button>
   );
 }
