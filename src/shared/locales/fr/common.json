@@ -75,11 +75,11 @@
       "name": "SkatFX Edge",
       "price": "78 $",
       "period": "/ Mois",
-      "subtitle": "Idéal pour ceux qui souhaitent des signaux rapides et fiables et un support d'expert avec un engagement minimal.",
+      "subtitle": "Idéal pour ceux qui souhaitent des configurations de trading rapides et fiables et un support d'expert avec un engagement minimal.",
       "cta": "S'abonner à Edge",
       "features": {
         "setups": "Configurations de trading de haute qualité (taux de réussite de 60%, toujours avec un ratio RR minimum de 1:3, sans sorties partielles)",
-        "signals": "Signaux de 3 traders d'élite (points de vue diversifiés, performance renforcée)",
+        "signals": "Configurations de trading de 3 traders d'élite (points de vue diversifiés, performance renforcée)",
         "safeguard": "Protection par abonnement (si vous ne réalisez pas de bénéfices en fin de mois = remboursement partiel, conditions générales applicables)",
         "analysis": "Analyse hebdomadaire VIP du marché",
         "support": "Support premium 24/7"
@@ -189,7 +189,7 @@
         "answer": "Si l'objectif de performance mensuel n'est pas atteint, une partie des frais d'abonnement peut être remboursée selon les conditions spécifiques de la formule."
       },
       {
-        "question": "Quels marchés couvrent vos signaux ?",
+        "question": "Quels marchés couvrent vos configurations de trading ?",
         "answer": "Nos idées de trading se concentrent sur le Forex et les matières premières."
       },
       {
@@ -205,7 +205,7 @@
         "answer": "Actuellement, les paiements sont acceptés uniquement en cryptomonnaie, y compris BTC, USDT, USDC, SOL et TRX."
       },
       {
-        "question": "À quelle heure envoyez-vous les signaux ?",
+        "question": "À quelle heure partagez-vous les configurations de trading ?",
         "answer": "La plupart des mises à jour sont partagées entre 09h00 et 17h00 UTC, couvrant la session de Londres et chevauchant avec New York."
       },
       {
@@ -231,14 +231,22 @@
     ]
   },
   "footer": {
+    "contactUs": "Contactez-nous",
     "email": "Skattfx@gmail.com",
     "telegram": "@skatfxtrader",
     "whatsapp": "+44 7745170344",
     "address": "71-75 Shelton Street, Covent Garden, London, UK",
+    "legalDocuments": "Documents juridiques",
     "terms": "Conditions d'utilisation",
     "safeguard": "Protection (Politique de remboursement)",
     "privacy": "Politique de confidentialité",
     "disclaimer": "Avertissement",
     "copyright": "© 2024 Skatfx. Tous droits réservés."
+  },
+  "finalCta": {
+    "headline": "Tradingz avec structure. Décidez avec preuves.",
+    "description": "Développez une approche plus disciplinée des marchés financiers avec des recherches structurées, des opportunités de trading qualifiées, une gestion des risques, de la formation et un accompagnement continu.",
+    "explore": "Explorer SkatFX",
+    "performance": "Voir la performance"
   }
 }

@@ -20,12 +20,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Skatfx — Strategic Trading, Backed by Transparency",
   description:
-    "Professional trading signals, transparent performance reports, and expert mentorship. Join 100+ clients in 38+ countries. Forex and commodities trading with a minimum 1:3 risk-to-reward ratio.",
-  keywords: ["trading", "forex", "commodities", "signals", "mentorship", "transparent trading"],
+    "Professional trading services, transparent performance reports, and expert mentorship. Join 100+ clients in 38+ countries. Forex and commodities trading with a minimum 1:3 risk-to-reward ratio.",
+  keywords: ["trading", "forex", "commodities", "trade setups", "mentorship", "transparent trading"],
   openGraph: {
     title: "Skatfx — Strategic Trading, Backed by Transparency",
     description:
-      "Professional trading signals, transparent performance reports, and expert mentorship. Join 100+ clients in 38+ countries.",
+      "Professional trading services, transparent performance reports, and expert mentorship. Join 100+ clients in 38+ countries.",
     type: "website",
     siteName: "Skatfx",
   },

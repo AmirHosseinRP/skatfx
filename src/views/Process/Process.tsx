@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -26,9 +27,13 @@ export default function Process() {
             <div className="flex gap-6 relative">
               {/* Step number and line */}
               <div className="flex flex-col items-center">
-                <div className="flex size-10 shrink-0 items-center justify-center rounded-full bg-brand text-white text-sm font-semibold">
+                <motion.div
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                  className="flex size-10 shrink-0 items-center justify-center rounded-full bg-brand text-white text-sm font-semibold"
+                >
                   {index + 1}
-                </div>
+                </motion.div>
                 {index < stepKeys.length - 1 && <div className="w-px flex-1 bg-background-secondary" />}
               </div>
 

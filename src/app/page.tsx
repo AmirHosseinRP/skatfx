@@ -1,6 +1,7 @@
 import AboutUs from "~/views/AboutUs/AboutUs";
 import Benefits from "~/views/Benefits/Benefits";
 import FAQ from "~/views/FAQ/FAQ";
+import FinalCTA from "~/views/FinalCTA/FinalCTA";
 import Footer from "~/views/Footer/Footer";
 import Header from "~/views/Header/Header";
 import Hero from "~/views/Hero/Hero";
@@ -23,6 +24,7 @@ export default function Home() {
         <AboutUs />
         <Testimonials />
         <FAQ />
+        <FinalCTA />
       </main>
 
       <Footer />

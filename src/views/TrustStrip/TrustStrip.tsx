@@ -1,6 +1,7 @@
 "use client";
 
 import { Globe, Headphones, Shield, Star, TrendingUp, Users } from "lucide-react";
+import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -23,7 +24,12 @@ export default function TrustStrip() {
         <div className="flex flex-wrap justify-center gap-6 md:gap-10">
           {trustItems.map(({ key, icon: Icon }) => (
             <div key={key} className="flex items-center gap-2 text-prose-secondary">
-              <Icon className="size-5 text-prose-brand" />
+              <motion.div
+                whileHover={{ scale: 1.1, rotate: 5 }}
+                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              >
+                <Icon className="size-5 text-prose-brand" />
+              </motion.div>
               <Typography variant="label1">{t(`trustStrip.${key}`)}</Typography>
             </div>
           ))}
