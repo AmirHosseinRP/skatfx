@@ -93,11 +93,11 @@
   --shadow-2xl: var(--shadow-2xl);
   --shadow-3xl: var(--shadow-3xl);
 
-  --text-heading1: 3rem; /* 48px */
+  --text-heading1: 3.5rem; /* 56px */
   --text-heading1--line-height: 1.15;
   --text-heading1--font-weight: 700;
 
-  --text-heading2: 2.25rem; /* 36px */
+  --text-heading2: 2.5rem; /* 40px */
   --text-heading2--line-height: 1.2;
   --text-heading2--font-weight: 700;
 

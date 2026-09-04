@@ -23,6 +23,7 @@ export default function Header() {
     { title: t("nav.pricing"), link: "#pricing" },
     { title: t("nav.testimonial"), link: "#testimonial" },
     { title: t("nav.questions"), link: "#questions" },
+    { title: "Telegram", link: "https://t.me/skatfx" },
   ];
 
   return (
@@ -42,7 +43,7 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <ThemeToggle />
           <LanguageSwitch />
-          <Button size="lg" color="brand">
+          <Button href="https://t.me/skatfxtrader" size="lg" color="brand">
             {t("nav.join")} <ChevronRight />
           </Button>
         </div>

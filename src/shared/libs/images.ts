@@ -1,11 +1,11 @@
-const BASE_ICONS_URL = "/assets/images";
+const BASE_ASSETS_URL = "/assets";
 
 export const images = {
-  worldMap: {
+  heroVideo: {
     src: {
-      light: `${BASE_ICONS_URL}/world-map.light.png`,
-      dark: `${BASE_ICONS_URL}/world-map.dark.png`,
+      light: `${BASE_ASSETS_URL}/videos/hero-light.MP4`,
+      dark: `${BASE_ASSETS_URL}/videos/hero-dark.MP4`,
     },
-    alt: "world map",
+    alt: "SkatFX traders around the world",
   },
 };

@@ -5,13 +5,28 @@ import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
 import { Avatar, AvatarFallback } from "~/shadcn/components/ui/avatar";
 
-function getInitials(name: string): string {
-  return name
-    .split(" ")
-    .map(part => part[0])
-    .join("")
-    .toUpperCase();
-}
+const flags: Record<string, string> = {
+  USA: "🇺🇸",
+  "États-Unis": "🇺🇸",
+  Turkey: "🇹🇷",
+  Turquie: "🇹🇷",
+  UK: "🇬🇧",
+  "Royaume-Uni": "🇬🇧",
+  Germany: "🇩🇪",
+  Allemagne: "🇩🇪",
+  UAE: "🇦🇪",
+  EAU: "🇦🇪",
+  Ireland: "🇮🇪",
+  Irlande: "🇮🇪",
+  India: "🇮🇳",
+  Inde: "🇮🇳",
+  "Saudi Arabia": "🇸🇦",
+  "Arabie Saoudite": "🇸🇦",
+  Italy: "🇮🇹",
+  Italie: "🇮🇹",
+  "Hong Kong": "🇭🇰",
+};
+const starKeys = ["one", "two", "three", "four", "five"];
 
 export default function Testimonials() {
   const { t } = useTranslation();
@@ -19,6 +34,7 @@ export default function Testimonials() {
     name: string;
     country: string;
     quote: string;
+    rating: number;
   }>;
 
   return (
@@ -38,13 +54,18 @@ export default function Testimonials() {
             <div className="flex flex-col gap-4 rounded-xl border border-background-secondary bg-background-secondary/50 p-6 h-full">
               <div className="flex items-center gap-3">
                 <Avatar size="lg">
-                  <AvatarFallback>{getInitials(item.name)}</AvatarFallback>
+                  <AvatarFallback className="text-xl">{flags[item.country] ?? "🌍"}</AvatarFallback>
                 </Avatar>
                 <div>
                   <Typography variant="subtitle3">{item.name}</Typography>
                   <Typography variant="caption1" color="secondary">
                     {item.country}
                   </Typography>
+                  <div className="flex text-sm text-success" role="img" aria-label={`${item.rating} out of 5 stars`}>
+                    {starKeys.map((key, star) => (
+                      <span key={key}>{star < item.rating ? "★" : "☆"}</span>
+                    ))}
+                  </div>
                 </div>
               </div>
               <Typography variant="paragraph2" color="secondary" className="italic">
@@ -57,8 +78,12 @@ export default function Testimonials() {
 
       <ScrollReveal delay={0.5}>
         <div className="text-center mt-8">
-          {/* TODO: add real page — /testimonials does not exist yet */}
-          <a href="/testimonials" className="text-prose-link hover:underline text-sm">
+          <a
+            href="https://t.me/c/Skatfxclub/4"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-prose-link hover:underline text-sm"
+          >
             {t("testimonials.seeMore")}
           </a>
         </div>

@@ -101,12 +101,20 @@ export default function Pricing() {
       {/* Secondary links */}
       <ScrollReveal delay={0.3}>
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8 text-center">
-          {/* TODO: add real page — /performance does not exist yet */}
-          <a href="/performance" className="text-prose-link hover:underline text-sm">
+          <a
+            href="https://t.me/c/Skatfxclub/2"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-prose-link hover:underline text-sm"
+          >
             {t("pricing.performanceReports")}
           </a>
-          {/* TODO: add real page — /how-it-works does not exist yet */}
-          <a href="/how-it-works" className="text-prose-link hover:underline text-sm">
+          <a
+            href="https://t.me/Skatfxclub/7/74"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-prose-link hover:underline text-sm"
+          >
             {t("pricing.howItWorks")}
           </a>
         </div>

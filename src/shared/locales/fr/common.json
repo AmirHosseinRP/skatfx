@@ -8,7 +8,7 @@
     "pricing": "Tarifs",
     "testimonial": "Témoignages",
     "questions": "Questions",
-    "join": "Rejoindre"
+    "join": "Abonnement"
   },
   "trustStrip": {
     "clients": "+100 clients",
@@ -128,51 +128,61 @@
       {
         "name": "Alex T.",
         "country": "États-Unis",
+        "rating": 5,
         "quote": "J'ai acheté un compte challenge de 300K et j'ai pu le valider avec vos signaux. Le processus était fluide, les conseils clairs et le support de l'équipe toujours amical et utile. J'ai enfin pu obtenir des paiements du trading de fonds, et maintenant après 6 mois d'abonnement j'ai appris suffisamment pour trader en toute confiance."
       },
       {
         "name": "Umut G.",
         "country": "Turquie",
+        "rating": 5,
         "quote": "Je peux dire que SkatFX est le groupe le plus réussi que j'aie jamais vu. Ils sont suffisamment confiants dans ce qu'ils font pour appeler les pertes, des pertes, et les bénéfices, des bénéfices. Vraiment transparent."
       },
       {
         "name": "David R.",
         "country": "Royaume-Uni",
+        "rating": 4,
         "quote": "Les administrateurs sont toujours gentils et accessibles. Chaque fois que j'avais des questions sur les signaux ou les stratégies, ils répondaient rapidement et expliquaient tout clairement."
       },
       {
         "name": "Sergey K.",
         "country": "Allemagne",
+        "rating": 5,
         "quote": "J'ai fait 24K sur un compte financé de 300K en utilisant vos signaux, merci."
       },
       {
         "name": "John R.",
         "country": "EAU",
+        "rating": 4,
         "quote": "Vos sessions de mentorat sont excellentes, et les conseils de l'équipe sont pratiques et faciles à suivre. Continuez."
       },
       {
         "name": "Liam O.",
         "country": "Irlande",
+        "rating": 4,
         "quote": "J'ai fait plus de 10K en presque 6 mois pendant mon abonnement à Skatfx premium"
       },
       {
         "name": "Arjun M.",
         "country": "Inde",
+        "rating": 4,
         "quote": "Merci les gars, les signaux sont généralement rentables et précis et les analyses hebdomadaires sont vraiment utiles."
       },
       {
         "name": "Hassan A.",
         "country": "Arabie Saoudite",
+        "rating": 5,
         "quote": "Le support est excellent. Ils sont patients, amicaux et toujours prêts à répondre à n'importe quelle question que j'ai. Cela rend tout beaucoup plus facile."
       },
       {
         "name": "Alex B.",
         "country": "Italie",
+        "rating": 4,
         "quote": "Tout a été génial pendant mes 3 mois d'abonnement, merci"
       },
       {
         "name": "Eric W.",
         "country": "Hong Kong",
+        "rating": 4,
         "quote": "Les sessions de mentorat sont très bonnes, les signaux sont bons, le support est aussi agréable."
       }
     ]
@@ -231,9 +241,11 @@
     ]
   },
   "footer": {
+    "contact": "Contactez-nous",
+    "legal": "Documents légaux",
     "email": "Skattfx@gmail.com",
     "telegram": "@skatfxtrader",
-    "whatsapp": "+44 7745170344",
+    "whatsapp": "+44 7445170344",
     "address": "71-75 Shelton Street, Covent Garden, London, UK",
     "terms": "Conditions d'utilisation",
     "safeguard": "Protection (Politique de remboursement)",

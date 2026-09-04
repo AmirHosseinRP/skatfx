@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import ThemedImage from "~/components/atoms/ThemedImage/ThemedImage";
+import ThemedVideo from "~/components/atoms/ThemedVideo/ThemedVideo";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
 import { images } from "~/shared/libs/images";
@@ -14,7 +14,7 @@ export default function Hero() {
     <section className="flex flex-col items-center">
       <div className="w-full max-w-xl flex flex-col gap-3 text-center">
         <ScrollReveal>
-          <Typography variant="heading2" tagName="h1">
+          <Typography variant="heading1" tagName="h1" className="text-4xl md:text-6xl">
             {t("hero.headline")}
             <span className="text-prose-brand">.</span>
           </Typography>
@@ -32,13 +32,28 @@ export default function Hero() {
 
         <div className="flex flex-col gap-5 text-center justify-center items-center">
           <ScrollReveal delay={0.3} className="w-full flex flex-col justify-center items-center mt-8">
-            <ThemedImage
-              src={images.worldMap.src}
-              alt={images.worldMap.alt}
+            <ThemedVideo
+              src={images.heroVideo.src}
+              aria-label={images.heroVideo.alt}
               width={700}
               height={500}
-              className="rounded-full border-2 border-background-secondary"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="rounded-2xl border-2 border-background-secondary"
             />
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.35}>
+            <a
+              href="https://skatfx.kit.com/30139e251f"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-xl border border-brand/30 bg-brand-light/40 px-6 py-4 text-subtitle2 font-semibold text-prose-primary shadow-sm transition-transform hover:-translate-y-1"
+            >
+              Learn market analysis basics for free
+            </a>
           </ScrollReveal>
 
           <ScrollReveal>
