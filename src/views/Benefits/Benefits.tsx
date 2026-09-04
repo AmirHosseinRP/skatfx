@@ -1,7 +1,6 @@
 "use client";
 
 import { BarChart3, BookOpen, Headphones, ShieldCheck, Target } from "lucide-react";
-import { motion } from "motion/react";
 import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -42,13 +41,9 @@ export default function Benefits() {
           return (
             <ScrollReveal key={key} delay={index * 0.1}>
               <div className="flex flex-col gap-4 rounded-xl border border-background-secondary bg-background-secondary/50 p-6 h-full">
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  className="flex size-12 items-center justify-center rounded-lg bg-brand-light"
-                >
+                <div className="flex size-12 items-center justify-center rounded-lg bg-brand-light">
                   <Icon className="size-6 text-prose-brand" />
-                </motion.div>
+                </div>
                 <Typography variant="heading5" tagName="h3">
                   {t(`benefits.items.${key}.title`)}
                 </Typography>
