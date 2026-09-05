@@ -1,0 +1,293 @@
+{
+  "hero": {
+    "headline": "Strategisches Trading, gestützt auf Transparenz"
+  },
+  "nav": {
+    "benefits": "Vorteile",
+    "process": "Prozess",
+    "pricing": "Preise",
+    "testimonial": "Referenzen",
+    "questions": "Fragen",
+    "about": "Über uns",
+    "join": "Abonnement"
+  },
+  "trustStrip": {
+    "clients": "+100 Kunden",
+    "countries": "In +38 Ländern",
+    "support": "24/7 Support",
+    "rrRatio": "1:3 Mindest-RR-Verhältnis",
+    "experience": "+7 Jahre Teamerfahrung",
+    "mentors": "+2 erfahrene Mentoren"
+  },
+  "benefits": {
+    "title": "Warum Skatfx",
+    "items": {
+      "transparentReports": {
+        "title": "Transparente Leistungsberichte",
+        "description": "Wöchentliche und monatliche reale Trading-Ergebnisse."
+      },
+      "educationalContent": {
+        "title": "Exklusiver Bildungsinhalt",
+        "description": "E-Books, Videokurse und Mentorship-Programme von unserem Expertenteam."
+      },
+      "subscriptionSafeguard": {
+        "title": "Abonnement-Schutz",
+        "description": "Teilweise Rückerstattung, wenn monatliche Ziele nicht erreicht werden (AGB gelten)."
+      },
+      "support247": {
+        "title": "24/7 Professioneller Support",
+        "description": "Immer für Sie da, um Ihre Trading- und Lernfragen zu beantworten."
+      },
+      "highQualityAnalysis": {
+        "title": "Hochwertige Analyse",
+        "description": "Präzise, leicht verständliche Einblicke basierend auf realer Markterfahrung."
+      },
+      "tradeFiltering": {
+        "title": "Systematisches Trade-Filtering",
+        "description": "Jedes Setup wird durch ein strukturiertes Bewertungssystem bewertet, um Chancen geringerer Qualität herauszufiltern und die Trade-Auswahl zu verbessern."
+      }
+    }
+  },
+  "process": {
+    "title": "Ein klares Framework für intelligentere Marktentcheidungen",
+    "steps": {
+      "analyze": {
+        "title": "Den Markt analysieren",
+        "description": "Wir verfolgen die Marktstruktur, Liquiditätsbedingungen und wesentliches Preisverhalten, um hochwertige Chancen zu identifizieren."
+      },
+      "buildPlan": {
+        "title": "Einen Trading-Plan erstellen",
+        "description": "Wenn die Bedingungen übereinstimmen, erstellen wir einen klaren Plan mit definierten Niveaus, Invalidierung und realistischen Zielen."
+      },
+      "tradeFiltering": {
+        "title": "Trade-Filtering",
+        "description": "Jedes Setup wird durch unser strukturiertes Bewertungssystem evaluiert, um schwächere Chancen herauszufiltern und Trades höherer Qualität zu identifizieren."
+      },
+      "execute": {
+        "title": "Mit Risikokontrolle ausführen",
+        "description": "Alle geteilten Trading-Ideen folgen strengen Risikolimits und einer konsistenten Risiko-Ertrags-Logik — Qualität vor Frequenz."
+      },
+      "document": {
+        "title": "Dokumentieren & Überprüfen",
+        "description": "Ergebnisse werden verfolgt und in regelmäßigen Leistungsberichten zusammengefasst, die sowohl starke als auch schwierige Zeiträume abdecken."
+      },
+      "support": {
+        "title": "Laufende Unterstützung",
+        "description": "Mitglieder erhalten kontinuierliche Anleitung zur Ausführungsdiziplin, zum Risikomanagement und zur Erwartungsabstimmung."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Wählen Sie Ihren Plan",
+    "subtitle": "",
+    "edge": {
+      "name": "SkatFX Edge",
+      "price": "$78",
+      "period": "/ Monat",
+      "subtitle": "Ideal für alle, die schnelle, zuverlässige Signale und Experten-Support mit minimalem Aufwand suchen.",
+      "cta": "Edge abonnieren",
+      "features": {
+        "setups": "Hochwertige Trading-Setups (60 % Gewinnrate, stets mit mindestens 1:3 RR, keine Teilausstiege)",
+        "signals": "Signale von 3 Elite-Tradern (Vielfältige Perspektiven, stärkere Performance)",
+        "safeguard": "Abonnement-Schutz (Keine Gewinne bis Monatsende = teilweise Rückerstattung, AGB gelten)",
+        "analysis": "VIP-Wochenmarktanalyse",
+        "support": "24/7 Premium-Support"
+      }
+    },
+    "prime": {
+      "name": "SkatFX Prime",
+      "price": "$209",
+      "period": "/ 3 Monate",
+      "subtitle": "Für ernsthafte Trader, die mit Strategie, Bildung und intensivem Mentorship aufsteigen möchten.",
+      "cta": "Prime abonnieren",
+      "features": {
+        "everythingInEdge": "Alles aus dem Edge-Plan",
+        "educationalContent": "Voller Zugang zu Premium-Bildungsinhalten (E-Books)",
+        "mentorship": "48 Stunden Live-Mentorship"
+      }
+    },
+    "performanceReports": "Klicken Sie hier für Leistungsberichte",
+    "howItWorks": "Klicken Sie hier, um zu sehen, wie der Skatfx Club funktioniert"
+  },
+  "about": {
+    "title": "Über uns",
+    "whoWeAre": {
+      "title": "Wer wir sind",
+      "description": "SkatFX ist eine unabhängige Finanzgruppe mit Fokus auf:",
+      "items": ["Marktforschung", "Trading & Ausführung", "Finanzbildung", "Mentorship & Kundenbetreuung"],
+      "founding": "Gegründet 2023, ist es unser Ziel, die Lücke zwischen professioneller Marktintelligenz und einzelnen Tradern zu schließen — durch strukturierte Forschung, disziplinierte Ausführung und praxisnahe Bildung."
+    },
+    "commitment": {
+      "title": "Unser Engagement",
+      "items": [
+        "Transparenz in Leistung und Kommunikation",
+        "Diszipliniertes Risikomanagement",
+        "Evidenzbasierte Entscheidungsfindung",
+        "Qualität vor Trading-Frequenz",
+        "Dokumentation von Gewinnen und Verlusten",
+        "Kontinuierliche Verbesserung",
+        "Langfristiger Kundennutzen"
+      ],
+      "closing": "Wir glauben, dass Vertrauen durch konsequente Handlungen und messbare Beweise verdient wird."
+    },
+    "edge": {
+      "title": "Unser Vorteil",
+      "description": "Unser Vorteil ist unser Prozess:",
+      "items": [
+        "Forschung vor Ausführung",
+        "Struktur vor Einstieg",
+        "Risiko vor Rendite",
+        "Qualität vor Frequenz",
+        "Jeder Trade hat definierte Kriterien und Risikoparameter",
+        "Jedes Ergebnis wird dokumentiert und überprüft",
+        "Bildung ist in den Trading-Prozess integriert"
+      ],
+      "closing": "Wir konzentrieren uns darauf, bessere Entscheidungen zu treffen, nicht lautere Prognosen abzugeben."
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "seeMore": "Klicken Sie hier, um weitere Referenzen zu sehen",
+    "items": [
+      {
+        "name": "Alex T.",
+        "country": "USA",
+        "rating": 5,
+        "quote": "Ich habe ein 300K-Challenge-Konto gekauft und konnte es mit Ihren Signalen bestehen. Der Prozess verlief reibungslos, die Anleitung war klar und der Support des Teams stets freundlich und hilfreich. Ich konnte endlich Auszahlungen vom Prop-Trading erhalten, und nach 6 Monaten Abonnement habe ich genug gelernt, um selbstbewusst alleine zu traden."
+      },
+      {
+        "name": "Umut G.",
+        "country": "Türkei",
+        "rating": 5,
+        "quote": "Ich kann sagen, dass SkatFX die erfolgreichste Gruppe ist, die ich je gesehen habe. Sie sind so sicher in dem, was sie tun, dass sie Verluste als Verluste und Gewinne als Gewinne bezeichnen. Wirklich transparent."
+      },
+      {
+        "name": "David R.",
+        "country": "UK",
+        "rating": 4,
+        "quote": "Die Administratoren sind stets freundlich und ansprechbar. Wann immer ich Fragen zu Signalen oder Strategien hatte, antworteten sie schnell und erklärten alles klar."
+      },
+      {
+        "name": "Sergey K.",
+        "country": "Deutschland",
+        "rating": 5,
+        "quote": "Ich habe 24K auf einem 300K-Funded-Account mit Ihren Signalen erzielt, danke."
+      },
+      {
+        "name": "John R.",
+        "country": "VAE",
+        "rating": 4,
+        "quote": "Ihre Mentorship-Sitzungen sind hervorragend, und die Anleitung des Teams ist praxisnah und leicht zu befolgen. Weiter so."
+      },
+      {
+        "name": "Liam O.",
+        "country": "Irland",
+        "rating": 4,
+        "quote": "Mehr als 10K in fast 6 Jahren während meines Abonnements bei Skatfx Premium verdient"
+      },
+      {
+        "name": "Arjun M.",
+        "country": "Indien",
+        "rating": 4,
+        "quote": "Danke Jungs, die Signale sind in der Regel profitabel und präzise, und die Wochenanalysen sind wirklich hilfreich."
+      },
+      {
+        "name": "Hassan A.",
+        "country": "Saudi-Arabien",
+        "rating": 5,
+        "quote": "Der Support ist großartig. Sie sind geduldig, freundlich und immer bereit, jede Frage zu beantworten. Das macht alles viel einfacher."
+      },
+      {
+        "name": "Alex B.",
+        "country": "Italien",
+        "rating": 4,
+        "quote": "Alles war großartig während meiner 3 Monate Abonnement, danke"
+      },
+      {
+        "name": "Eric W.",
+        "country": "Hongkong",
+        "rating": 4,
+        "quote": "Die Mentorship-Sitzungen sind sehr gut, die Signale sind gut, der Support ist auch nett."
+      },
+      {
+        "name": "Roberta D.",
+        "country": "USA",
+        "rating": 5,
+        "quote": "Ich hatte eine wirklich positive Erfahrung. Während des Trainings haben wir den Markt gemeinsam analysiert, und er hat klar erklärt, was der Preis potenziell tun könnte und vor allem warum. Was mich am meisten beeindruckt hat, war zu sehen, dass der Markt nur wenige Stunden später genau dem Szenario folgte, das wir analysiert hatten. Es war wirklich befriedigend zu sehen, was mir beigebracht wurde, sich tatsächlich auf dem Markt abspielte. Klares, praxisnahes und wirklich nützliches Training."
+      },
+      {
+        "name": "Andre",
+        "country": "Belgien",
+        "rating": 5,
+        "quote": "SkatFX ist eine der professionellsten Trading-Gruppen, die ich kenne. Die Art und Weise, wie sie alles systematisieren, ist beeindruckend, und die regelmäßigen Nachfragen des Teams zeigen echte Aufmerksamkeit und Verantwortung.\n\nMatthew ist auch ein großartiger Mentor. Er ist nach unserer privaten Sitzung geblieben, bis ich ein Konzept vollständig verstanden hatte. Dieses Engagement sagt viel über das Team aus."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "question": "Ist Ihre Leistung garantiert?",
+        "answer": "Keine Trading-Leistung ist jemals garantiert. Was wir bieten, ist Transparenz, datengestützte Analyse und dokumentierte Berichte."
+      },
+      {
+        "question": "Wie funktioniert der Abonnement-Schutz?",
+        "answer": "Wenn das monatliche Leistungsziel nicht erreicht wird, kann ein Teil der Mitgliedsgebühr basierend auf den spezifischen Bedingungen des Plans erstattet werden."
+      },
+      {
+        "question": "Welche Märkte decken Ihre Signale ab?",
+        "answer": "Unsere Trading-Ideen konzentrieren sich auf Forex und Rohstoffe."
+      },
+      {
+        "question": "Ist das Training für Anfänger geeignet?",
+        "answer": "Der Prime-Plan umfasst einen strukturierten Lehrplan, der von den Grundlagen bis zur fortgeschrittenen Ausführung reicht und auf neuere Trader ausgelegt ist."
+      },
+      {
+        "question": "Wie kann ich den Support kontaktieren?",
+        "answer": "Der Support ist 24/7 über Telegram, WhatsApp und E-Mail erreichbar."
+      },
+      {
+        "question": "Welche Zahlungsmethoden werden akzeptiert?",
+        "answer": "Derzeit werden Zahlungen ausschließlich in Kryptowährungen akzeptiert, darunter BTC, USDT, USDC, SOL und TRX."
+      },
+      {
+        "question": "Wann senden Sie Signale?",
+        "answer": "Die meisten Updates werden zwischen 09:00 und 17:00 UTC geteilt und decken die Londoner Sitzung ab, mit Überlappung zu New York."
+      },
+      {
+        "question": "Sind Ihre Trading-Setups mit Copy-Trading-Tools kompatibel?",
+        "answer": "Ja. Unsere Orders sind so gestaltet, dass sie klar, strukturiert und copy-freundlich sind, mit detaillierten Einstiegen und transparenten Updates."
+      },
+      {
+        "question": "Nehmen Sie Teilausstiege (Teilschließungen) bei Trades vor?",
+        "answer": "Nein, wir verwenden keine Teilausstiege. Jedes Setup ist mit 1 Take-Profit (TP) und 1 Stop-Loss (SL) strukturiert. Entsprechend werden Ergebnisse als TP, SL oder Break-Even (BE) erfasst."
+      },
+      {
+        "question": "Wie hoch ist Ihre Gewinnrate?",
+        "answer": "Die Gewinnrate ist nicht festgelegt und kann je nach Marktbedingungen variieren. Historisch lag sie typischerweise zwischen 55 % und 65 %."
+      },
+      {
+        "question": "Wie hoch ist Ihr minimales Risiko-Ertrags-Verhältnis (RR)?",
+        "answer": "Unser minimales Risiko-Ertrags-Verhältnis (RR) pro Trade beträgt 1:3. Das bedeutet, dass jedes Setup darauf ausgelegt ist, mindestens drei Einheiten potenziellen Ertrag pro Risikoeinheit anzustreben, wenn die Bedingungen es zulassen."
+      },
+      {
+        "question": "Welche Orderart verwenden Sie in der Regel?",
+        "answer": "Die meisten unserer Setups sind als Limit-Orders strukturiert. Historisch sind etwa 85 % unserer Trading-Ideen Limits, der Rest wird in der Regel als Market-Orders ausgeführt, wenn die Bedingungen es erfordern."
+      }
+    ]
+  },
+  "footer": {
+    "contact": "Kontaktieren Sie uns",
+    "legal": "Rechtsdokumente",
+    "email": "Skattfx@gmail.com",
+    "telegram": "@skatfxtrader",
+    "whatsapp": "+44 7445170344",
+    "address": "71-75 Shelton Street, Covent Garden, London, UK",
+    "terms": "Nutzungsbedingungen",
+    "safeguard": "Schutz (Rückerstattungsrichtlinie)",
+    "privacy": "Datenschutzrichtlinie",
+    "disclaimer": "Haftungsausschluss",
+    "copyright": "© 2026 SkatFX. Alle Rechte vorbehalten.",
+    "copyrightDisclaimer": "Marktforschung, Trading-Einblicke und Bildungsinhalte. Nur zu Informationszwecken."
+  }
+}

@@ -179,15 +179,12 @@ export default function Footer() {
         </ScrollReveal>
       </div>
 
-      {/* <Separator className="my-8" /> */}
-
-      {/* <ScrollReveal delay={0.3}>
-        <div className="text-center">
-          <Typography variant="caption1" color="hint">
-            {t("footer.copyright")}
-          </Typography>
+      <ScrollReveal delay={0.3}>
+        <div className="mt-12 pt-8 border-t border-background-primary/20 text-center px-8">
+          <p className="text-caption1 text-prose-hint leading-relaxed">{t("footer.copyright")}</p>
+          <p className="text-caption1 text-prose-hint leading-relaxed mt-1">{t("footer.copyrightDisclaimer")}</p>
         </div>
-      </ScrollReveal> */}
+      </ScrollReveal>
     </footer>
   );
 }

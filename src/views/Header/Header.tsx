@@ -30,7 +30,7 @@ export default function Header() {
     <header className="fixed w-full max-w-5xl z-9999">
       {/* Desktop nav */}
       <nav className="hidden md:flex bg-gray-200/50 backdrop-blur-md min-h-17 p-3 mx-7 mt-7 rounded-xl flex-row justify-between items-center border border-background-primary">
-        <Link href={routes.home()} className="min-w-23 pl-2">
+        <Link href={routes.home()} className="min-w-23 ps-2">
           <ThemedImage src={icons.skatfx.src} alt={icons.skatfx.alt} width={28} height={28} />
         </Link>
         <div className="flex flex-row justify-center items-center">
@@ -44,14 +44,14 @@ export default function Header() {
           <ThemeToggle />
           <LanguageSwitch />
           <Button href="/subscription" size="lg" color="brand">
-            {t("nav.join")} <ChevronRight />
+            {t("nav.join")} <ChevronRight className="rtl:rotate-180" />
           </Button>
         </div>
       </nav>
 
       {/* Mobile nav */}
       <nav className="flex md:hidden bg-gray-200/50 backdrop-blur-md flex-row justify-between items-center min-h-17 p-4 shadow-xl">
-        <Link href={routes.home()} className="min-w-23 pl-2">
+        <Link href={routes.home()} className="min-w-23 ps-2">
           <ThemedImage src={icons.skatfx.src} alt={icons.skatfx.alt} width={28} height={28} />
         </Link>
         <HamburgerButton isOpen={isMenuOpen} onToggle={() => setIsMenuOpen(prev => !prev)} />

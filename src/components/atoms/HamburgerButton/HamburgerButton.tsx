@@ -20,7 +20,7 @@ export default function HamburgerButton(props: Props) {
       <svg
         viewBox="0 0 32 32"
         className={clsx(
-          "h-11 w-11 rounded-full pl-1.5 pr-2 transition-transform duration-600 ease-in-out",
+          "h-11 w-11 rounded-full ps-1.5 pe-2 transition-transform duration-600 ease-in-out",
           props.isOpen ? "-rotate-45" : "rotate-0"
         )}
       >
