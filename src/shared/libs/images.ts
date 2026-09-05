@@ -1,10 +1,10 @@
 const BASE_ASSETS_URL = "/assets";
 
 export const images = {
-  heroVideo: {
+  performanceChart: {
     src: {
-      light: `${BASE_ASSETS_URL}/videos/hero-light.MP4`,
-      dark: `${BASE_ASSETS_URL}/videos/hero-dark.MP4`,
+      light: `${BASE_ASSETS_URL}/gifs/performance-chart-light.gif`,
+      dark: `${BASE_ASSETS_URL}/gifs/performance-chart-dark.gif`,
     },
     alt: "SkatFX traders around the world",
   },

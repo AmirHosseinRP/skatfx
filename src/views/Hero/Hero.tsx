@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
-import ThemedVideo from "~/components/atoms/ThemedVideo/ThemedVideo";
+import ThemedImage from "~/components/atoms/ThemedImage/ThemedImage";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
 import { images } from "~/shared/libs/images";
@@ -32,15 +32,11 @@ export default function Hero() {
 
         <div className="flex flex-col gap-5 text-center justify-center items-center">
           <ScrollReveal delay={0.3} className="w-full flex flex-col justify-center items-center mt-8">
-            <ThemedVideo
-              src={images.heroVideo.src}
-              aria-label={images.heroVideo.alt}
+            <ThemedImage
+              src={images.performanceChart.src}
+              alt={images.performanceChart.alt}
               width={700}
               height={500}
-              autoPlay
-              muted
-              loop
-              playsInline
               className="rounded-2xl border-2 border-background-secondary"
             />
           </ScrollReveal>
