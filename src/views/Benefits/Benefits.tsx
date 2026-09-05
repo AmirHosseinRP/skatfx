@@ -1,6 +1,6 @@
 "use client";
 
-import { BarChart3, BookOpen, Headphones, ShieldCheck, Target } from "lucide-react";
+import { BarChart3, BookOpen, Filter, Headphones, ShieldCheck, Target } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -11,6 +11,7 @@ const featureKeys = [
   "subscriptionSafeguard",
   "support247",
   "highQualityAnalysis",
+  "tradeFiltering",
 ] as const;
 
 const featureIcons: Record<string, typeof Target> = {
@@ -19,6 +20,7 @@ const featureIcons: Record<string, typeof Target> = {
   subscriptionSafeguard: ShieldCheck,
   support247: Headphones,
   highQualityAnalysis: Target,
+  tradeFiltering: Filter,
 };
 
 export default function Benefits() {

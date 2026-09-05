@@ -6,7 +6,9 @@ import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
 
 export default function AboutUs() {
   const { t } = useTranslation();
+  const whoWeAreItems = t("about.whoWeAre.items", { returnObjects: true }) as string[];
   const commitmentItems = t("about.commitment.items", { returnObjects: true }) as string[];
+  const edgeItems = t("about.edge.items", { returnObjects: true }) as string[];
 
   return (
     <section id="about" className="w-full py-16 md:py-24">
@@ -29,6 +31,19 @@ export default function AboutUs() {
             <Typography variant="paragraph2" color="secondary">
               {t("about.whoWeAre.description")}
             </Typography>
+            <ul className="flex flex-col gap-2 mt-2">
+              {whoWeAreItems.map(item => (
+                <li key={item} className="flex items-center gap-3">
+                  <div className="size-2 rounded-full bg-brand shrink-0" />
+                  <Typography variant="paragraph2" color="secondary">
+                    {item}
+                  </Typography>
+                </li>
+              ))}
+            </ul>
+            <Typography variant="paragraph2" color="secondary" className="mt-2">
+              {t("about.whoWeAre.founding")}
+            </Typography>
           </div>
         </ScrollReveal>
 
@@ -48,6 +63,9 @@ export default function AboutUs() {
                 </li>
               ))}
             </ul>
+            <Typography variant="paragraph2" color="secondary" className="mt-2">
+              {t("about.commitment.closing")}
+            </Typography>
           </div>
         </ScrollReveal>
 
@@ -59,6 +77,19 @@ export default function AboutUs() {
             </Typography>
             <Typography variant="paragraph2" color="secondary">
               {t("about.edge.description")}
+            </Typography>
+            <ul className="flex flex-col gap-2 mt-2">
+              {edgeItems.map(item => (
+                <li key={item} className="flex items-center gap-3">
+                  <div className="size-2 rounded-full bg-brand shrink-0" />
+                  <Typography variant="paragraph2" color="secondary">
+                    {item}
+                  </Typography>
+                </li>
+              ))}
+            </ul>
+            <Typography variant="paragraph2" color="secondary" className="mt-2">
+              {t("about.edge.closing")}
             </Typography>
           </div>
         </ScrollReveal>

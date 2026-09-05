@@ -1,6 +1,9 @@
 export const SITE_CONFIG = {
-  subscribeUrl: "https://t.me/skatfxtrader",
-  telegramUrl: "https://t.me/skatfxtrader",
-  whatsappUrl: "https://wa.me/447445170344",
+  subscribeUrl: "/subscription",
+  telegramUrl: "https://t.me/skatfx",
+  whatsappUrl: "https://wa.me/message/FBBXP4SJC3XTC1",
   email: "Skattfx@gmail.com",
+  xUrl: "https://x.com/skatfx",
+  instagramUrl: "https://instagram.com/skatfx.group",
+  tiktokUrl: "https://www.tiktok.com/skattfx",
 } as const;

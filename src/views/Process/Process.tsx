@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
 
-const stepKeys = ["analyze", "buildPlan", "execute", "document", "support"] as const;
+const stepKeys = ["analyze", "buildPlan", "tradeFiltering", "execute", "document", "support"] as const;
 
 export default function Process() {
   const { t } = useTranslation();

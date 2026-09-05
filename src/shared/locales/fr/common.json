@@ -8,6 +8,7 @@
     "pricing": "Tarifs",
     "testimonial": "Témoignages",
     "questions": "Questions",
+    "about": "À propos",
     "join": "Abonnement"
   },
   "trustStrip": {
@@ -19,7 +20,7 @@
     "mentors": "+2 mentors experts"
   },
   "benefits": {
-    "title": "Pourquoi choisir Skatfx",
+    "title": "Pourquoi Skatfx",
     "items": {
       "transparentReports": {
         "title": "Rapports de performance transparents",
@@ -40,6 +41,10 @@
       "highQualityAnalysis": {
         "title": "Analyse de haute qualité",
         "description": "Informations précises et faciles à comprendre, basées sur une expérience réelle du marché."
+      },
+      "tradeFiltering": {
+        "title": "Filtrage systématique des trades",
+        "description": "Chaque configuration est évaluée grâce à un système de notation structuré pour éliminer les opportunités de moindre qualité et améliorer la sélection des trades."
       }
     }
   },
@@ -53,6 +58,10 @@
       "buildPlan": {
         "title": "Élaborer un plan de trading",
         "description": "Lorsque les conditions sont réunies, nous préparons un plan clair avec des niveaux définis, une invalidation et des objectifs réalistes."
+      },
+      "tradeFiltering": {
+        "title": "Filtrage des trades",
+        "description": "Chaque configuration est évaluée grâce à notre système de notation structuré pour filtrer les opportunités plus faibles et identifier les trades de meilleure qualité."
       },
       "execute": {
         "title": "Exécuter avec contrôle des risques",
@@ -70,7 +79,7 @@
   },
   "pricing": {
     "title": "Choisissez votre formule",
-    "subtitle": "Aperçu du Skatfx Club",
+    "subtitle": "",
     "edge": {
       "name": "SkatFX Edge",
       "price": "78 $",
@@ -87,7 +96,7 @@
     },
     "prime": {
       "name": "SkatFX Prime",
-      "price": "248 $",
+      "price": "209 $",
       "period": "/ 3 Mois",
       "subtitle": "Pour les traders sérieux qui cherchent à progresser avec la stratégie, la formation et un mentorat approfondi.",
       "cta": "S'abonner à Prime",
@@ -104,21 +113,41 @@
     "title": "À propos de nous",
     "whoWeAre": {
       "title": "Qui nous sommes",
-      "description": "Une équipe compacte de traders professionnels offrant des analyses structurées, des rapports transparents et des méthodologies éprouvées. Notre cadre repose sur les données, la documentation et l'exécution réelle sur le marché plutôt que sur la théorie recyclée."
+      "description": "SkatFX est un groupe financier indépendant axé sur :",
+      "items": [
+        "La recherche sur les marchés",
+        "Le trading et l'exécution",
+        "La formation financière",
+        "Le mentorat et le support client"
+      ],
+      "founding": "Fondé en 2023, nous visons à combler le fossé entre l'intelligence de marché professionnelle et les traders individuels grâce à une recherche structurée, une exécution disciplinée et une formation pratique."
     },
     "commitment": {
       "title": "Notre engagement",
       "items": [
-        "Performance transparente",
-        "Standards professionnels",
-        "Contenu éducatif exclusif",
-        "Support continu",
-        "Respect de votre temps et de votre capital"
-      ]
+        "Transparence dans la performance et la communication",
+        "Gestion disciplinée des risques",
+        "Prise de décision basée sur les preuves",
+        "La qualité plutôt que la fréquence de trading",
+        "Documentation des gains et des pertes",
+        "Amélioration continue",
+        "Valeur client à long terme"
+      ],
+      "closing": "Nous croyons que la confiance se gagne par des actions cohérentes et des preuves mesurables."
     },
     "edge": {
       "title": "Notre avantage",
-      "description": "Nous ne nous fions pas à l'hype. Nous nous fions aux preuves. Chaque configuration de trading, rapport, module de formation et analyse est enraciné dans des données vérifiables, des résultats mesurables et un processus de trading discipliné."
+      "description": "Notre avantage, c'est notre processus :",
+      "items": [
+        "La recherche avant l'exécution",
+        "La structure avant l'entrée",
+        "Le risque avant le rendement",
+        "La qualité plutôt que la fréquence",
+        "Chaque trade a des critères définis et des paramètres de risque",
+        "Chaque résultat est documenté et analysé",
+        "La formation est intégrée au processus de trading"
+      ],
+      "closing": "Nous nous concentrons sur la prise de meilleures décisions, pas sur des prédictions plus bruyantes."
     }
   },
   "testimonials": {
@@ -184,6 +213,18 @@
         "country": "Hong Kong",
         "rating": 4,
         "quote": "Les sessions de mentorat sont très bonnes, les signaux sont bons, le support est aussi agréable."
+      },
+      {
+        "name": "Roberta D.",
+        "country": "États-Unis",
+        "rating": 5,
+        "quote": "J'ai eu une expérience vraiment positive. Pendant la formation, nous avons analysé le marché ensemble, et il a clairement expliqué ce que le prix pourrait potentiellement faire et, surtout, pourquoi. Ce qui m'a le plus impressionnée, c'est de voir, quelques heures plus tard, que le marché a suivi exactement le scénario que nous avions analysé. C'était vraiment satisfaisant de voir ce que j'avais appris se concrétiser sur le marché. Une formation claire, pratique et véritablement utile."
+      },
+      {
+        "name": "Andre",
+        "country": "Belgique",
+        "rating": 5,
+        "quote": "SkatFX est l'un des groupes de trading les plus professionnels que je connaisse. La façon dont ils systématisent tout est impressionnante, et les suivis réguliers de l'équipe montrent une vraie attention et responsabilité.\n\nMatthew est également un excellent mentor. Il est resté après notre session privée jusqu'à ce que je comprenne parfaitement un concept. Ce niveau d'engagement en dit long sur l'équipe."
       }
     ]
   },

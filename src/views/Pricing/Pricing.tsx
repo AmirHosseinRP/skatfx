@@ -102,7 +102,7 @@ export default function Pricing() {
       <ScrollReveal delay={0.3}>
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8 text-center">
           <a
-            href="https://t.me/c/Skatfxclub/2"
+            href="https://t.me/Skatfxclub/2/25"
             target="_blank"
             rel="noopener noreferrer"
             className="text-prose-link hover:underline text-sm"

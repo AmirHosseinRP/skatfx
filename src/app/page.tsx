@@ -20,9 +20,9 @@ export default function Home() {
         <Benefits />
         <Process />
         <Pricing />
-        <AboutUs />
         <Testimonials />
         <FAQ />
+        <AboutUs />
       </main>
 
       <Footer />

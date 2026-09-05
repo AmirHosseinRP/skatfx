@@ -1,6 +1,7 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+import HeroBackground from "~/components/atoms/HeroBackground/HeroBackground";
 import ThemedImage from "~/components/atoms/ThemedImage/ThemedImage";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -11,8 +12,9 @@ export default function Hero() {
   const { t } = useTranslation();
 
   return (
-    <section className="flex flex-col items-center">
-      <div className="w-full max-w-xl flex flex-col gap-3 text-center">
+    <section className="relative flex flex-col items-center">
+      <HeroBackground />
+      <div className="relative w-full max-w-xl flex flex-col gap-3 text-center z-10">
         <ScrollReveal>
           <Typography variant="heading1" tagName="h1" className="text-4xl md:text-6xl">
             {t("hero.headline")}
@@ -50,10 +52,6 @@ export default function Hero() {
             >
               Learn market analysis basics for free
             </a>
-          </ScrollReveal>
-
-          <ScrollReveal>
-            <Typography variant="label1">Countries where traders have joined us so far.</Typography>
           </ScrollReveal>
         </div>
       </div>

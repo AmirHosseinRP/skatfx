@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import type { PropsWithChildren } from "react";
 import Providers from "~/app/providers";
 import Layout from "~/components/atoms/Layout/Layout";
@@ -46,7 +45,7 @@ export default function RootLayout({ children }: Readonly<PropsWithChildren>) {
           <Layout>{children}</Layout>
         </Providers>
 
-        <Script id="register-sw" strategy="afterInteractive" src="/sw.register.js" />
+        {/* <Script id="register-sw" strategy="afterInteractive" src="/sw.register.js" /> */}
       </body>
     </html>
   );

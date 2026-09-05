@@ -25,6 +25,8 @@ const flags: Record<string, string> = {
   Italy: "🇮🇹",
   Italie: "🇮🇹",
   "Hong Kong": "🇭🇰",
+  Belgium: "🇧🇪",
+  Belgique: "🇧🇪",
 };
 const starKeys = ["one", "two", "three", "four", "five"];
 
