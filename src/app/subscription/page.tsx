@@ -191,9 +191,14 @@ function CopyButton({ text }: { text: string }) {
 
 export default function SubscriptionPage() {
   const plansRef = useRef<HTMLDivElement>(null);
+  const paymentRef = useRef<HTMLElement>(null);
 
   const scrollToPlans = useCallback(() => {
     plansRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, []);
+
+  const scrollToPayment = useCallback(() => {
+    paymentRef.current?.scrollIntoView({ behavior: "smooth" });
   }, []);
 
   return (
@@ -302,7 +307,7 @@ export default function SubscriptionPage() {
                 ))}
               </ul>
 
-              <Button onClick={scrollToPlans} color="brand" size="lg" className="w-full">
+              <Button onClick={scrollToPayment} color="brand" size="lg" className="w-full">
                 Choose Edge
               </Button>
             </div>
@@ -343,7 +348,7 @@ export default function SubscriptionPage() {
                 ))}
               </ul>
 
-              <Button onClick={scrollToPlans} color="brand" size="lg" className="w-full">
+              <Button onClick={scrollToPayment} color="brand" size="lg" className="w-full">
                 Choose Prime
               </Button>
             </div>
@@ -352,7 +357,7 @@ export default function SubscriptionPage() {
       </section>
 
       {/* 11.4 & 11.5 Payment + Crypto */}
-      <section className="w-full pb-16 md:pb-24">
+      <section ref={paymentRef} className="w-full pb-16 md:pb-24">
         <ScrollReveal>
           <div className="text-center mb-12">
             <Typography variant="heading2" tagName="h2">
@@ -417,6 +422,9 @@ export default function SubscriptionPage() {
               </div>
             </ScrollReveal>
           ))}
+          <Typography variant="caption1" color="secondary" className="text-center">
+            Scroll down ↓
+          </Typography>
         </div>
       </section>
 

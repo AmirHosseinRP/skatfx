@@ -147,7 +147,7 @@
   },
   "testimonials": {
     "title": "ماذا يقول عملاؤنا",
-    "seeMore": "انقر هنا لرؤية المزيد من الشهادات",
+    "seeMore": "Click here for more documented testimonies",
     "items": [
       {
         "name": "Alex T.",
@@ -211,7 +211,7 @@
       },
       {
         "name": "Roberta D.",
-        "country": "الولايات المتحدة",
+        "country": "إيطاليا",
         "rating": 5,
         "quote": "كانت لدي تجربة إيجابية حقًا. أثناء التدريب، تحللنا السوق معًا، وأوضح بوضوح ما يمكن أن يفعله السعر على الأرجح، والأهم من ذلك، لماذا. ما أعجبني أكثر هو أنني رأيت، بعد ساعات قليلة، أن السوق اتباع بالضبط السيناريو الذي تحللناه. كان مرضيًا حقًا أن أرى ما تم تعليمي إياه يتجسد فعليًا في السوق. تدريب واضح، وعملي، ومفيد حقًا."
       },
@@ -279,7 +279,7 @@
   "footer": {
     "contact": "اتصل بنا",
     "legal": "الوثائق القانونية",
-    "email": "Skattfx@gmail.com",
+    "email": "Support@Skatfx.com",
     "telegram": "@skatfxtrader",
     "whatsapp": "+44 7445170344",
     "address": "71-75 Shelton Street, Covent Garden, London, UK",

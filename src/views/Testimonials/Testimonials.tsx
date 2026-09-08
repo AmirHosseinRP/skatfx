@@ -1,5 +1,6 @@
 "use client";
 
+import { Check } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -29,6 +30,20 @@ const flags: Record<string, string> = {
   Belgique: "🇧🇪",
 };
 const starKeys = ["one", "two", "three", "four", "five"];
+const clientDates: Record<string, string> = {
+  "Alex T.": "June 2024",
+  "Umut G.": "September 2024",
+  "David R.": "June 2026",
+  "Sergey K.": "October 2025",
+  "John R.": "August 2024",
+  "Liam O.": "November 2024",
+  "Arjun M.": "November 2024",
+  "Hassan A.": "December 2025",
+  "Alex B.": "October 2025",
+  "Eric W.": "June 2026",
+  "Roberta D.": "September 2026",
+  Andre: "August 2026",
+};
 
 export default function Testimonials() {
   const { t } = useTranslation();
@@ -59,7 +74,23 @@ export default function Testimonials() {
                   <AvatarFallback className="text-xl">{flags[item.country] ?? "🌍"}</AvatarFallback>
                 </Avatar>
                 <div>
-                  <Typography variant="subtitle3">{item.name}</Typography>
+                  <div className="flex items-center gap-1">
+                    <Typography variant="subtitle3">{item.name}</Typography>
+                    <span
+                      className="flex size-4 items-center justify-center rounded-full bg-blue-500 text-white"
+                      title="Verified Client"
+                      role="img"
+                      aria-label="Verified Client"
+                    >
+                      <Check className="size-2.5" strokeWidth={3} />
+                    </span>
+                  </div>
+                  <Typography variant="caption1" color="secondary">
+                    Verified Client
+                  </Typography>
+                  <Typography variant="caption1" color="secondary">
+                    {clientDates[item.name]}
+                  </Typography>
                   <Typography variant="caption1" color="secondary">
                     {item.country}
                   </Typography>
@@ -81,12 +112,12 @@ export default function Testimonials() {
       <ScrollReveal delay={0.5}>
         <div className="text-center mt-8">
           <a
-            href="https://t.me/c/Skatfxclub/4"
+            href="https://t.me/Skatfxclub/4"
             target="_blank"
             rel="noopener noreferrer"
             className="text-prose-link hover:underline text-sm"
           >
-            {t("testimonials.seeMore")}
+            Click here for more documented testimonies
           </a>
         </div>
       </ScrollReveal>

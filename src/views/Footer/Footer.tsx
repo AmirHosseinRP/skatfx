@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, MapPin, MessageCircle } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Typography from "~/components/atoms/Typography/Typography";
 import ScrollReveal from "~/components/molecules/ScrollReveal/ScrollReveal";
@@ -109,16 +109,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="flex items-center gap-3">
-              <svg
-                viewBox="0 0 24 24"
-                className="size-5 text-prose-brand shrink-0"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                aria-hidden="true"
-              >
-                <path d="M8.5 3.5A2 2 0 0 0 6.7 6.2c.5 2.2 1.6 4.4 3.5 6.4 2 1.9 4.2 3 6.4 3.5a2 2 0 0 0 2.7-1.8v-1.1a1 1 0 0 0-.7-.95l-2.4-.8a1 1 0 0 0-1.1.35l-.8 1a11.5 11.5 0 0 1-3.2-3.2l1-.8a1 1 0 0 0 .35-1.1l-.8-2.4a1 1 0 0 0-.95-.7H9.6a2 2 0 0 0-1.1.3Z" />
-              </svg>
+              <Phone className="size-5 text-prose-brand shrink-0" />
               <a
                 href={SITE_CONFIG.whatsappUrl}
                 target="_blank"

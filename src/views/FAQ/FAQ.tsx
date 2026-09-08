@@ -37,7 +37,7 @@ export default function FAQ() {
           </Accordion>
           <Typography variant="paragraph2" color="secondary" className="mt-6 text-center">
             Got more questions?{" "}
-            <a href="mailto:Skattfx@gmail.com" className="text-prose-link hover:underline">
+            <a href="mailto:Support@Skatfx.com" className="text-prose-link hover:underline">
               Contact us
             </a>
             .

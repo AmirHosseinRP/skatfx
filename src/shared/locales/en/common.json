@@ -147,7 +147,7 @@
   },
   "testimonials": {
     "title": "What Our Clients Say",
-    "seeMore": "Click here to see more testimonials",
+    "seeMore": "Click here for more documented testimonies",
     "items": [
       {
         "name": "Alex T.",
@@ -211,7 +211,7 @@
       },
       {
         "name": "Roberta D.",
-        "country": "USA",
+        "country": "Italy",
         "rating": 5,
         "quote": "I had a really positive experience. During the training, we analysed the market together, and he clearly explained what the price could potentially do and, most importantly, why. What impressed me the most was seeing, just a few hours later, that the market followed exactly the scenario we had analysed. It was really satisfying to see what I had been taught actually play out in the market. Clear, practical, and genuinely useful training."
       },
@@ -279,7 +279,7 @@
   "footer": {
     "contact": "Contact Us",
     "legal": "Legal Documents",
-    "email": "Skattfx@gmail.com",
+    "email": "Support@Skatfx.com",
     "telegram": "@skatfxtrader",
     "whatsapp": "+44 7445170344",
     "address": "71-75 Shelton Street, Covent Garden, London, UK",
